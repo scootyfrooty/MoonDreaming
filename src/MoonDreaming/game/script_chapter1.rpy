@@ -22,6 +22,8 @@ label chapter_one:
 
     ce "Excepteur sint occaecat cupidatat non proident."
 
+    ce "Excepteur sint occaecat cupidatat non proident."
+
     cm "[LOREM_LONG]"
 
     # ---- Swap back to Layout 1: ADV ------------------------------------------
