@@ -3,6 +3,10 @@
 # Custom text layout(s). Layout 1 (ADV) and Layout 2 (NVL) are provided by the
 # stock screens.rpy, so only the third "cinematic" layout needs custom code.
 
+# Layout 1: ADV (ADVENTURE) is the "generic" visual novel layout. Text box on bottom
+# Layout 2: NVL (NOVEL) is left aligned, stacking dialouge
+# Layout 3: Cinematic is full screen
+
 ################################################################################
 ## Layout 3: Cinematic say screen
 ################################################################################

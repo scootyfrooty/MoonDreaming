@@ -20,8 +20,11 @@ define m = Character(None)  # plain narrator (no name)
 ## instead of the "say" screen. Remember to call `nvl clear` in the script when
 ## you enter/reset NVL mode.
 
-define nk = Character("Eileen", kind=nvl, color="#c8ffc8")
-define nm = Character(None, kind=nvl)  # NVL narrator (unnamed)
+define a = Character("Ana", kind=nvl, color="#639e52")
+define e = Character("Emily", kind=nvl, color="#9e4744")
+define s = Character("Silvia", kind=nvl, color="#2b50d7")
+define o = Character("Sophia", kind=nvl, color="#747272")
+define n = Character(None, kind=nvl)  # NVL narrator (unnamed)
 
 
 ################################################################################
@@ -31,8 +34,12 @@ define nm = Character(None, kind=nvl)  # NVL narrator (unnamed)
 ## defined in layouts.rpy. Anything spoken by them renders centered on screen
 ## with no textbox.
 
-define ce = Character("Eileen", screen="cinematic_say", color="#ffcc66")
-define cm = Character(None, screen="cinematic_say")  # cinematic narration
+define ca = Character("Ana", screen="cinematic_say", color="#639e52")
+define ce = Character("Emily", screen="cinematic_say", color="#9e4744")
+define cs = Character("Silvia", screen="cinematic_say", color="#2b50d7")
+define co = Character("Sophia",screen="cinematic_say", color="#747272")
+define tv = Character ("TV Narrator", screen="cinematic_say", color="#747272")
+define cn = Character(None, screen="cinematic_say")  # cinematic narration
 
 
 ################################################################################
