@@ -63,7 +63,7 @@ define gui.text_font = "AtkinsonHyperlegible.ttf"
 define gui.name_text_font = "Trickster-Reg.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "AtkinsonHyperlegible.ttf""
+define gui.interface_text_font = "Geist-Light.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 20

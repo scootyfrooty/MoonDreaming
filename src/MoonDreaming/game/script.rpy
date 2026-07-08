@@ -23,11 +23,14 @@ label chapter_select:
     menu:
         m "Which chapter would you like to read?"
 
-        "Chapter One — ADV & Cinematic":
+        "Intro":
             call chapter_one
 
-        "Chapter Two — NVL":
+        "Scene 1: Living Room":
             call chapter_two
+
+        "Scene 2: Cafe":
+            call chapter_three
 
         "That's enough for now.":
             return

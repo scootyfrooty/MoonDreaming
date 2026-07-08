@@ -1,12 +1,8 @@
 # script_chapter2.rpy
 #
-# Chapter Two. Demonstrates Layout 2 (NVL) and swapping back to ADV.
+# Chapter Two. 
 
 label chapter_two:
-
-    # ---- Swap to Layout 2: NVL (full-screen novel mode) ----------------------
-    # `nvl clear` wipes any previous NVL page. NVL characters (kind=nvl) then
-    # stack their lines up the screen instead of using the bottom textbox.
     
     nvl clear
 
