@@ -25,6 +25,8 @@ define e = Character("Emily", kind=nvl, color="#9e4744")
 define s = Character("Silvia", kind=nvl, color="#2b50d7")
 define o = Character("Sophia", kind=nvl, color="#747272")
 define b = Character("Barista", kind=nvl, color="#747272")
+define m = Character("Mama", kind=nvl, color="#747272")
+define p = Character("Papa", kind=nvl, color="#747272")
 define n = Character(None, kind=nvl)  # NVL narrator (unnamed)
 
 
