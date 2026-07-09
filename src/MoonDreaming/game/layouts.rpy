@@ -43,21 +43,21 @@ style cinematic_frame is empty:
     yfill True
 
 style cinematic_vbox:
-    xalign 0.5
-    yalign 0.5
+    xalign 1
+    yalign 1
     spacing 24
 
 style cinematic_who:
-    xalign 0.5
-    size 44
-    color "#ffcc66"
+    xalign 1
+    size 45
+    color "#bab0bf"
     outlines [(2, "#000000", 0, 0)]
 
 style cinematic_what:
-    xalign 0.5
+    xalign 1
     xmaximum 1200
-    text_align 0.5
+    text_align 0
     size 52
     line_leading 8
-    color "#ffffff"
+    color "#bab0bf"
     outlines [(2, "#000000", 0, 0)]

@@ -6,6 +6,9 @@ label chapter_two:
     
     nvl clear
 
+    scene bg apartment outside
+    show ana default
+
     n "The house was dark, and Emily sat next to me on our scuffed couch.
     We were both bathed in the flickering blue light of the TV, PJs on, locked in.
     A distinctive true crime sting played from the speakers as the show went to ads."
@@ -31,8 +34,6 @@ label chapter_two:
 
     a "Tell that to the dudes on Tinder!!"
 
-    nvl clear
-
     a "Someday I'm gonna go on a date and never come back and
     you're gonna call the cops and they'll find my body rotting at the bottom of a lake."
 
@@ -44,34 +45,30 @@ label chapter_two:
 
     a "I'm honored."
 
+    nvl clear
+
     n "The 4th ad in a row for {i}SmartMattress: The final frontier of sleep{/i} finally concluded, and the
     true crime show continued."
 
-    nvl clear
-
-    tv "The case was about to take a turn: When DNA tests came back for the suspected murder weapon, 
+    tv "{i}The case was about to take a turn: When DNA tests came back for the suspected murder weapon, 
     the tests confirmed that most of the blood on the hammer was the victim's blood. But there was also a 
-    second source of blood: her boyfriend."
-
-    nvl clear
+    second source of blood: her boyfriend.{/i}"
 
     a "Knew it!"
 
-    nvl clear
+    tv "{i} In earlier interrogations, police had noticed scratches on his hands that were consistent with defensive
+    wounds. Combined with the DNA evidence, things were not looking good for Don in court. {/i}"
 
-    tv "In earlier interrogations, police had noticed scratches on his hands that were consistent with defensive
-    wounds. Combined with the DNA evidence, things were not looking good for Don in court."
-
-    tv "Don Joe had appeared distraught when the police informed him of his girlfriend's death, 
+    tv "{i} Don Joe had appeared distraught when the police informed him of his girlfriend's death, 
     falling to his knees and sobbing in front of the officer. He even played the heartbroken 
     boyfriend on the local news, telling Jane's story, and asking for donations to help 
-    fund her memorial. But was this all just a front? What sort of person would do something like this?"
-
-    nvl clear
+    fund her memorial. But was this all just a front? What sort of person would do something like this?{/i}"
 
     a "You can't trust a mean boyfriend, but also can't trust a guy who's wayyyy too nice.
     I'd need like...a Goldilocks guy. Not abusive, but not someone who pretends to be a sweet golden 
     retriever boyfriend either. It's never real."
+
+    nvl clear
 
     e " Oof....it's rough out there,huh?"
     
@@ -79,18 +76,18 @@ label chapter_two:
 
     a "Aha...yeah a little bit. I started watching true crime shows with my mom and sister when I was little."
 
-    "I must've been like 8? I wanted to be just like big sis, so I'd put on a brave face any time I got scared, until I stopped being scared by it any more. It's really just the same stuff every time. I'd think people would know better by now. Like, don't go on a walk in the woods with some dude you just met! Don't let your husband take out a life insurance policy in your name! Never trust a man who rents a woodchipper!"
+    a "I must've been like 8? I wanted to be just like big sis, so I'd put on a brave face any time I got scared, until I stopped being 
+    scared by it any more. It's really just the same stuff every time. I'd think people would know better by now. Like, don't go on a walk in the 
+    woods with some dude you just met! Don't let your husband take out a life insurance policy in your name! Never trust a man who rents a woodchipper!"
 
     e "Oh my god, my family would never let me watch anything that wasn't PBS or Disney channel when I was little, I think they thought it would corrupt me? But look how I turned out anyway."
 
-    "She flicked her hand with a limp wrist, the universal sign for {i}gay.{/i}"
+    n "She flicked her hand with a limp wrist, the universal sign for {i}gay.{/i}"
 
     e "Arthur was a pretty fire show though, if I'm being honest."
 
     a "Haha, yeah. I barely remember it because I only watched it when I was really tiny. As soon as 
     Mama would let me, I wanted to watch whatever Sophia was watching."
-
-    nvl clear
 
     n "The show finished up, the boyfriend was found guilty, no surprises there."
 
@@ -116,7 +113,7 @@ label chapter_two:
 
     nvl clear
 
-    scene bg_bedroom_night
+    scene bg apartment outside
     show ana default
 
     n "I flopped down onto my bed. Whenever I thought about dates, I just felt a sense of dread. 
