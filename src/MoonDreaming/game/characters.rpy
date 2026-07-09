@@ -9,8 +9,8 @@
 ################################################################################
 ## These use the built-in "say" screen. Nothing special required.
 
-define e = Character("Eileen", color="#c8ffc8")
-define m = Character(None)  # plain narrator (no name)
+define am = Character("Eileen", color="#bab0bf")
+define an = Character(None)  # plain narrator (no name)
 
 
 ################################################################################
@@ -20,13 +20,14 @@ define m = Character(None)  # plain narrator (no name)
 ## instead of the "say" screen. Remember to call `nvl clear` in the script when
 ## you enter/reset NVL mode.
 
-define a = Character("Ana", kind=nvl, color="#639e52")
-define e = Character("Emily", kind=nvl, color="#9e4744")
-define s = Character("Silvia", kind=nvl, color="#2b50d7")
-define o = Character("Sophia", kind=nvl, color="#747272")
-define b = Character("Barista", kind=nvl, color="#747272")
-define m = Character("Mama", kind=nvl, color="#747272")
-define p = Character("Papa", kind=nvl, color="#747272")
+define a = Character("Ana", kind=nvl, color="#bab0bf")
+define e = Character("Emily", kind=nvl, color="#bab0bf")
+define s = Character("Silvia", kind=nvl, color="#bab0bf")
+define o = Character("Sophia", kind=nvl, color="#bab0bf")
+define b = Character("Barista", kind=nvl, color="#bab0bf")
+define m = Character("Mama", kind=nvl, color="#bab0bf")
+define p = Character("Papa", kind=nvl, color="#bab0bf")
+define tv = Character("TV", kind=nvl, color="#bab0bf", font="Geist-Light.ttf")
 define n = Character(None, kind=nvl)  # NVL narrator (unnamed)
 
 
@@ -37,11 +38,11 @@ define n = Character(None, kind=nvl)  # NVL narrator (unnamed)
 ## defined in layouts.rpy. Anything spoken by them renders centered on screen
 ## with no textbox.
 
-define ca = Character("Ana", screen="cinematic_say", color="#639e52")
-define ce = Character("Emily", screen="cinematic_say", color="#9e4744")
-define cs = Character("Silvia", screen="cinematic_say", color="#2b50d7")
-define co = Character("Sophia",screen="cinematic_say", color="#747272")
-define tv = Character ("TV Narrator", screen="cinematic_say", color="#747272")
+define ca = Character("Ana", screen="cinematic_say", color="#bab0bf")
+define ce = Character("Emily", screen="cinematic_say", color="#bab0bf")
+define cs = Character("Silvia", screen="cinematic_say", color="#bab0bf")
+define co = Character("Sophia",screen="cinematic_say", color="#bab0bf")
+define tvc = Character ("TV Narrator", screen="cinematic_say", color="#bab0bf")
 define cn = Character(None, screen="cinematic_say")  # cinematic narration
 
 

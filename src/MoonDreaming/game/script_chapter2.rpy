@@ -18,8 +18,6 @@ label chapter_two:
 
     e "Always!! This is why I don't date men, shit's shady out there."
 
-    nvl clear
-
     a "Ahhhh girl I wish. I can't give them up. I just like some good dick once in a while y'know??
     And Mama would have my ass if I didn't bring her home a husband eventually. 
     It would be the last straw for her."
@@ -45,11 +43,11 @@ label chapter_two:
     n "She held her hand up to her forehead in a mock serious salute."
 
     a "I'm honored."
-    
-    nvl clear
 
     n "The 4th ad in a row for {i}SmartMattress: The final frontier of sleep{/i} finally concluded, and the
     true crime show continued."
+
+    nvl clear
 
     tv "The case was about to take a turn: When DNA tests came back for the suspected murder weapon, 
     the tests confirmed that most of the blood on the hammer was the victim's blood. But there was also a 

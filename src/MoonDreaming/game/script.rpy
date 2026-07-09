@@ -9,8 +9,8 @@
 
 label start:
 
-    scene bg room
-    show eileen happy
+    scene bg apartment outside 
+    show ana default
 
     jump chapter_select
 
