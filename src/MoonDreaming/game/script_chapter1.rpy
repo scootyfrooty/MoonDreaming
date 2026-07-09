@@ -17,4 +17,4 @@ label chapter_one:
 
     cn "But who are we, truly?"
 
-    return
+call chapter_two

@@ -23,14 +23,35 @@ label chapter_select:
     menu:
         m "Which chapter would you like to read?"
 
-        "Intro":
+        "1: Intro":
             call chapter_one
 
-        "Scene 1: Living Room":
+        "2: Roommates":
             call chapter_two
 
-        "Scene 2: Cafe":
+        "3: Cafe":
             call chapter_three
+
+        "4: Sophia call":
+            call chapter_four
+
+        "5: First group yoga":
+            call chapter_five
+
+        "6: A later group class":
+            call chapter_six
+
+        "7: Emily & Ana talk about Silvia":
+            call chapter_seven
+
+        "8: One on one in yoga studio":
+            call chapter_eight
+
+        "9: Rejection":
+            call chapter_nine
+
+        "10: Climax":
+            call chapter_ten
 
         "That's enough for now.":
             return

@@ -1,6 +1,6 @@
 # script_chapter2.rpy
 #
-# Chapter Two. 
+# Chapter Two. The scene where Emily and Ana watch true crime on the couch together.
 
 label chapter_two:
     
@@ -140,5 +140,4 @@ label chapter_two:
     n "Is this what being a successful adult is like? Working a stupid job, dating stupid men, so I can 
     eventually save up the money to have stupid children and a stupid house? Ugh. This is a fucking slog."
 
-
-    return
+call chapter_three
