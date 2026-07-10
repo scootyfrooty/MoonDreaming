@@ -4,6 +4,9 @@
 
 label chapter_five:
 
+    scene bg studio day
+    show ana default 
+
     n "The huge windows bathed the yoga studio's wood floor in soft, warm light. There's some other students 
     floating around, they look like they do this all the time. They're sipping tea from cups left on a table at the front of the 
     class. "
@@ -20,6 +23,8 @@ label chapter_five:
     s "Hellooooooo goddesses! I'm so very glad to have you here. Some returning friends and some new ones, I see."
 
     s "Why don't you gather on the mats over here and we can get started?"
+
+    nvl clear
 
     n "I sat on a mat next to a pasty pale ginger woman who looked like she might burn at the slightest touch of sun. 
     She gave me a smile and a nod and I returned it. Another woman, heavier and tanner skinned, sat on my other side. 
@@ -41,6 +46,8 @@ label chapter_five:
 
     n "We continued at a leisurely pace through different poses for about half an hour, until Silvia had us return 
     to sukhasana, and sit facing her. "
+
+    nvl clear
 
     s "For the next part of our morning together, I want to show you all the power of breathwork. Don't worry if you 
     haven't done it before, I'll show you how. Your body has so much natural power inside, just waiting to be tapped into. 
@@ -65,6 +72,8 @@ label chapter_five:
 
     n "It was a bit awkward hearing everyone breathing rapidly, so I tried to focus entirely on the music."
 
+    nvl clear
+
     n "My mind wandered...."
 
     n "After a few songs, I started to feel floaty and a bit lightheaded. "
@@ -86,6 +95,8 @@ label chapter_five:
 
     n "The music slowed, and I automatically slowed my breathing along with it. "
 
+    nvl clear
+
     n "After some amount of time, I heard Silvia say — "
 
     s "You may now open your eyes and return to the room."
@@ -103,6 +114,8 @@ label chapter_five:
 
     s "Otherwise, you are all free to go! Have a week full of love and light. Namaste."
 
+    nvl clear
+
     n "Some folks headed towards the front of the room to talk to Silvia, others gathered their things and started h
     eading for the door. A couple friends chatted in low voices with each other. I got the sense that we had all experienced 
     something profound together, and didn't want to speak too loud for fear of disturbing it."
@@ -114,6 +127,8 @@ label chapter_five:
     of the women who had approached her. Their faces were close together, Silvia gazing into the woman's eyes and nodding her 
     head as she listened to her speak, completely engaged with what she was saying. I felt a pang in my chest, quickly looked 
     away and closed the door behind me."
+
+    scene bg car sunset
 
     n "I sat for a while in my car in the lot, resting my chin on the dash and staring out at the sunset. 
     The orange-pink sky looked extra vivid."

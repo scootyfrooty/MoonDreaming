@@ -9,8 +9,7 @@
 
 label start:
 
-    scene bg apartment outside 
-    show ana default
+    scene bg houseback
 
     jump chapter_select
 
@@ -20,8 +19,8 @@ label start:
 # Because `call` comes back, the menu stays the table of contents.
 label chapter_select:
 
+
     menu:
-        m "Which chapter would you like to read?"
 
         "1: Intro":
             call chapter_one
@@ -52,9 +51,6 @@ label chapter_select:
 
         "10: Climax":
             call chapter_ten
-
-        "That's enough for now.":
-            return
 
     # Loop back to the menu after a chapter returns.
     jump chapter_select

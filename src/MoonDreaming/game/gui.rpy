@@ -14,6 +14,12 @@ init python:
 ## Enable checks for invalid or unstable properties in screens or transforms
 define config.check_conflicting_properties = True
 
+################################################################################
+## stuff i added cuz i didn't know where else to put it. muahaha
+
+define _scene_show_hide_transition = Dissolve(0.25)
+
+################################################################################
 
 ################################################################################
 ## GUI Configuration Variables
@@ -50,17 +56,17 @@ define gui.muted_color = '#003d51'
 define gui.hover_muted_color = '#005b7a'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
-define gui.interface_text_color = '#ffffff'
+define gui.text_color = '#fcf7ff'
+define gui.interface_text_color = '#fcf7ff'
 
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "AtkinsonHyperlegible.ttf"
+define gui.text_font = "Geist-Light.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "AtkinsonHyperlegible.ttf"
+define gui.name_text_font = "Geist-Medium.ttf"
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "Geist-Light.ttf"
@@ -248,7 +254,7 @@ define gui.file_slot_rows = 2
 
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
-define gui.navigation_xpos = 60
+define gui.navigation_xpos = 30
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 15
@@ -394,8 +400,8 @@ define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by the
 ## nvl_narrator character.)
-define gui.nvl_thought_xpos = 1260
-define gui.nvl_thought_ypos = 12
+define gui.nvl_thought_xpos = 1100
+define gui.nvl_thought_ypos = 50
 define gui.nvl_thought_width = 80
 define gui.nvl_thought_xalign = 0.0
 

@@ -4,8 +4,8 @@
 
 label chapter_three:
 
-    scene bg_bedroom_night
-    show ana default
+    scene bg cafe day
+    hide ana default
 
     nvl clear
 
@@ -16,12 +16,12 @@ label chapter_three:
 
     b "Matcha latte for Ana!"
 
+    show ana default
+
     a "Ah, thank you!"
 
     n "The barista had a big septum ring and tattoos peaking out from under her apron. 
     Makes sense that she'd end up in a job like this."
-
-    nvl clear
 
     n "I've never loved the grassy taste of matcha, but it looks so cute in photos... caffeine is caffeine, anyway. "
 
@@ -55,10 +55,10 @@ label chapter_three:
     personality. They're loud, they dress kinda sloppy. Emily is the least intense of the bunch, but we usually only hang out to 
     watch shows together. "
 
-    nvl clear
-
     n "As I continued to scroll my feed, I saw a new face. Another beautiful woman, of course, because there's a million 
     of those. "
+
+    nvl clear
 
     n "This woman was in the middle of a crowded public park, chanting and singing something new-age-y. The caption read 
     \"Vibrate at your truest frequency, and you will be unstoppable.\" "
@@ -70,8 +70,6 @@ label chapter_three:
 
     n "I cringed.....that just wasn't normal behavior. God, you have to admire the audacity though. It's definitely more 
     interesting than being the latest #BossBabe career-woman. "
-
-    nvl clear
 
     n "I tapped into her page and was greeted with lush scenery, upscale vegan food, yoga exercises, and 
     motivational quotes. And in the center of it was her, over and over again. Immersed in greenery, in lotus pose, 
@@ -118,15 +116,17 @@ label chapter_three:
     You choose what you feel. In that, you are invincible. You can master that pain, and turn it into your power. 
     So go out there and choose your reality like the goddess you know you are."
 
-    nvl clear
-
     n "Okay, girlie. Easy for you to say when you don't look like you've ever had a single real problem in your life."
 
     n "I flipped my phone over, and finished the last dregs of my matcha.  Too distracting, it was time to head to work."
 
+    hide ana default
     nvl clear
+    scene bg office
 
     n "46 unread emails had flooded my inbox, and I was drowning in spreadsheets. New day, but exactly the same bullshit! 
     There's gotta be more to life than this."
+
+    nvl clear
 
 call chapter_four

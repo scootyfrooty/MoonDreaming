@@ -27,7 +27,7 @@ define o = Character("Sophia", kind=nvl, color="#bab0bf")
 define b = Character("Barista", kind=nvl, color="#bab0bf")
 define m = Character("Mama", kind=nvl, color="#bab0bf")
 define p = Character("Papa", kind=nvl, color="#bab0bf")
-define tv = Character("TV", kind=nvl, color="#bab0bf", font="GeistMono-Italic-VariableFont_wght.ttf")
+define tv = Character("TV", kind=nvl, color="#bab0bf", what_font="GeistMono-Italic-VariableFont_wght.ttf")
 define n = Character(None, kind=nvl)  # NVL narrator (unnamed)
 
 
@@ -43,7 +43,7 @@ define ce = Character("Emily", screen="cinematic_say", color="#bab0bf")
 define cs = Character("Silvia", screen="cinematic_say", color="#bab0bf")
 define co = Character("Sophia",screen="cinematic_say", color="#bab0bf")
 define tvc = Character ("TV Narrator", screen="cinematic_say", color="#bab0bf")
-define cn = Character(None, screen="cinematic_say", font="GeistMono-Italic-VariableFont_wght.ttf")  # cinematic narration
+define cn = Character(None, screen="cinematic_say", what_font="GeistMono-Italic-VariableFont_wght.ttf")  # cinematic narration
 
 
 ################################################################################

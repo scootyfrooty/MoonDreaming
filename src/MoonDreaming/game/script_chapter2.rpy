@@ -6,8 +6,10 @@ label chapter_two:
     
     nvl clear
 
-    scene bg apartment outside
-    show ana default
+    scene bg livingroom night
+    show ana default:
+        xalign 0.0
+        yalign 0.5
 
     n "The house was dark, and Emily sat next to me on our scuffed couch.
     We were both bathed in the flickering blue light of the TV, PJs on, locked in.
@@ -113,7 +115,7 @@ label chapter_two:
 
     nvl clear
 
-    scene bg apartment outside
+    scene bg bedroom night
     show ana default
 
     n "I flopped down onto my bed. Whenever I thought about dates, I just felt a sense of dread. 
