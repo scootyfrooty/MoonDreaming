@@ -15,11 +15,6 @@ init python:
 define config.check_conflicting_properties = True
 
 ################################################################################
-## stuff i added cuz i didn't know where else to put it. muahaha
-
-define _scene_show_hide_transition = Dissolve(0.25)
-
-################################################################################
 
 ################################################################################
 ## GUI Configuration Variables
@@ -31,7 +26,7 @@ define _scene_show_hide_transition = Dissolve(0.25)
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#744391'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#888888'
@@ -41,7 +36,7 @@ define gui.idle_color = '#888888'
 define gui.idle_small_color = '#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#66c1e0'
+define gui.hover_color = '#744391'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
@@ -371,11 +366,11 @@ define gui.history_text_xalign = 0.0
 ## The NVL-mode screen displays the dialogue spoken by NVL-mode characters.
 
 ## The borders of the background of the NVL-mode background window.
-define gui.nvl_borders = Borders(20, 60, 20, 20)
+define gui.nvl_borders = Borders(20, 60, 20, 100)
 
 ## The maximum number of NVL-mode entries Ren'Py will display. When more entries
 ## than this are to be show, the oldest entry will be removed.
-define gui.nvl_list_length = 9
+define gui.nvl_list_length = 6
 
 ## The height of an NVL-mode entry. Set this to None to have the entries
 ## dynamically adjust height.

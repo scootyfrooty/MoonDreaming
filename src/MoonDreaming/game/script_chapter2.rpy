@@ -2,21 +2,31 @@
 #
 # Chapter Two. The scene where Emily and Ana watch true crime on the couch together.
 
+
 label chapter_two:
     
     nvl clear
 
     scene bg livingroom night
-    show ana default:
-        xalign 0.0
-        yalign 0.5
+    play music "pad_low.mp3"
+
+    show ana default with easeinleft:
+        xpos 100
+        ypos 30
+
+    show emily default with easeinleft:
+        xpos 400
+        ypos 35
+
 
     n "The house was dark, and Emily sat next to me on our scuffed couch.
     We were both bathed in the flickering blue light of the TV, PJs on, locked in.
     A distinctive true crime sting played from the speakers as the show went to ads."
 
+    show ana default at hop
     a "Her boyfriend totally did it."
 
+    show emily default at hop
     e "Oh ABSOLUTELY."
 
     a "It's aaaaalways the boyfriend."
@@ -58,13 +68,16 @@ label chapter_two:
 
     a "Knew it!"
 
-    tv "{i} In earlier interrogations, police had noticed scratches on his hands that were consistent with defensive
+    tv "{i}In earlier interrogations, police had noticed scratches on his hands that were consistent with defensive
     wounds. Combined with the DNA evidence, things were not looking good for Don in court. {/i}"
 
-    tv "{i} Don Joe had appeared distraught when the police informed him of his girlfriend's death, 
-    falling to his knees and sobbing in front of the officer. He even played the heartbroken 
-    boyfriend on the local news, telling Jane's story, and asking for donations to help 
-    fund her memorial. But was this all just a front? What sort of person would do something like this?{/i}"
+    tv "{i}Don Joe had appeared distraught when the police informed him of his girlfriend's death, 
+    falling to his knees and sobbing in front of the officer. "
+    
+    tv "{i} He even played the heartbroken boyfriend on the local news, telling Jane's story, and asking for donations to help 
+    fund her memorial.{/i}" 
+    
+    tv "{i}But was this all just a front? What sort of person would do something like this?{/i}"
 
     a "You can't trust a mean boyfriend, but also can't trust a guy who's wayyyy too nice.
     I'd need like...a Goldilocks guy. Not abusive, but not someone who pretends to be a sweet golden 
@@ -72,15 +85,17 @@ label chapter_two:
 
     nvl clear
 
-    e " Oof....it's rough out there,huh?"
+    e " Oof... it's rough out there,huh?"
     
     e "I only watch this show with you once a week, but you've got these kinds of assholes clocked for real."
 
-    a "Aha...yeah a little bit. I started watching true crime shows with my mom and sister when I was little."
+    a "Aha... yeah a little bit. I started watching true crime shows with my mom and sister when I was little."
 
     a "I must've been like 8? I wanted to be just like big sis, so I'd put on a brave face any time I got scared, until I stopped being 
-    scared by it any more. It's really just the same stuff every time. I'd think people would know better by now. Like, don't go on a walk in the 
-    woods with some dude you just met! Don't let your husband take out a life insurance policy in your name! Never trust a man who rents a woodchipper!"
+    scared by it any more. It's really just the same stuff every time. I'd think people would know better by now." 
+    
+    a "Like, don't go on a walk in the woods with some dude you just met! Don't let your husband take out a life insurance policy in your name! 
+    Never trust a man with a woodchipper!"
 
     e "Oh my god, my family would never let me watch anything that wasn't PBS or Disney channel when I was little, I think they thought it would corrupt me? But look how I turned out anyway."
 
@@ -93,7 +108,7 @@ label chapter_two:
 
     n "The show finished up, the boyfriend was found guilty, no surprises there."
 
-    a "I'm gonna head to bed now, I've got work in the morning...I should get at least a little bit of sleep."
+    a "I'm gonna head to bed now, I've got work in the morning... I should get at least a little bit of sleep."
 
     e "Okay! I think I might sleep over at Abby's house tonight, it's closer to my work anyway."
 
@@ -115,8 +130,12 @@ label chapter_two:
 
     nvl clear
 
-    scene bg bedroom night
-    show ana default
+    hide emily default
+    hide ana default
+    scene bg bedroom night with fade
+    show ana default with easeinleft:
+        xpos 260
+        ypos 30
 
     n "I flopped down onto my bed. Whenever I thought about dates, I just felt a sense of dread. 
     Emily seemed to be so playful with it, even when things weren't going perfectly."
@@ -127,14 +146,21 @@ label chapter_two:
     n "Sometimes it was a comment about how \"girls don't know how to take a joke\", or how \"my mom is such 
     a bitch\". Other times it was scratchy stubble, beer cans as decoration, deodorant that was way too 
     stinky. Or he would have stupid hobbies like ultimate frisbee or lifting weights or making espresso or 
-    playing video games. And the old classic -- the unsolicited dick pic."
+    playing video games. And the old classic — the unsolicited dick pic."
 
-    n "I was becoming convinced that every man was a walking red flag -- I could rarely make it past a 
+    nvl clear
+
+
+    n "I was becoming convinced that every man was a walking red flag — I could rarely make it past a 
     first date before something about him started grating on me."
 
-    n "It's so....annoying!!"
+    n "It's so... annoying!!"
 
     n "Is this what being a successful adult is like? Working a stupid job, dating stupid men, so I can 
     eventually save up the money to have stupid children and a stupid house? Ugh. This is a fucking slog."
+    
+    hide ana default
+    stop music fadeout 1.0
+    nvl clear 
 
 call chapter_three

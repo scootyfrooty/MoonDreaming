@@ -3,6 +3,14 @@
 # Chapter 7. Emily and Ana talk about the upcoming one on one session with Silvia.
 
 label chapter_seven:
+
+    scene bg livingroom night with fadehold
+    play music raw fadein 0.5
+
+    show ana default with easeinleft:
+        xpos 30
+        ypos 60
+
     n "I plopped on the couch and started scrolling mindlessly through videos, but my mind was elsewhere. "
 
     n "Silvia really thought I had a \"beautiful soul\"? Me, of all people? Even after I told her and everyone 
@@ -12,6 +20,10 @@ label chapter_seven:
 
     n "I'm not sure if I'm ready for one-on-one shadow work, if a group setting was already that intense....
     but if Silvia thinks I'm ready, I want to trust her."
+
+    show emily default with easeinleft:
+        xpos 30
+        ypos 60
 
     e "Hey girl!!"
 

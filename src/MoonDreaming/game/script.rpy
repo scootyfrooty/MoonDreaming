@@ -7,6 +7,22 @@
 # so you don't "import" anything. You just define labels in separate files and
 # move between them with `call` (returns here afterward) or `jump` (one-way).
 
+###########################################################################################
+##MISC DEFINITIONS
+###########################################################################################
+
+transform hop:
+    easein .175 yoffset -10
+    easeout .175 yoffset 0
+    easein .175 yoffset -4
+    easeout .175 yoffset 0
+    yoffset 0
+
+define _scene_show_hide_transition = Dissolve(0.25)
+define fadehold = Fade(0.5, 1.0, 0.5)
+
+#############################################################################################
+
 label start:
 
     scene bg houseback

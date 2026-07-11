@@ -20,15 +20,15 @@ define an = Character(None)  # plain narrator (no name)
 ## instead of the "say" screen. Remember to call `nvl clear` in the script when
 ## you enter/reset NVL mode.
 
-define a = Character("Ana", kind=nvl, color="#bab0bf")
-define e = Character("Emily", kind=nvl, color="#bab0bf")
-define s = Character("Silvia", kind=nvl, color="#bab0bf")
-define o = Character("Sophia", kind=nvl, color="#bab0bf")
+define a = Character("Ana", kind=nvl, color="#c2a0d0")
+define e = Character("Emily", kind=nvl, color="#d39dad")
+define s = Character("Silvia", kind=nvl, color="#c3b9a9")
+define o = Character("Sophia", kind=nvl, color="#a0b4c7")
 define b = Character("Barista", kind=nvl, color="#bab0bf")
-define m = Character("Mama", kind=nvl, color="#bab0bf")
-define p = Character("Papa", kind=nvl, color="#bab0bf")
-define tv = Character("TV", kind=nvl, color="#bab0bf", what_font="GeistMono-Italic-VariableFont_wght.ttf")
-define n = Character(None, kind=nvl)  # NVL narrator (unnamed)
+define m = Character("Mama", kind=nvl, color="#c9a6ae")
+define p = Character("Papa", kind=nvl, color="#afc4a7")
+define tv = Character("TV", kind=nvl, color="#bab0bf", who_font="GeistMono-Italic-VariableFont_wght.ttf", what_font="GeistMono-Italic-VariableFont_wght.ttf", what_size = 20)
+define n = Character(None, kind=nvl, what_font="Geist-LightItalic.ttf", color="#c2a0d0")  # NVL narrator (unnamed)
 
 
 ################################################################################

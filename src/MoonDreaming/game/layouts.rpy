@@ -32,6 +32,7 @@ screen cinematic_say(who, what):
             if who is not None:
                 text who id "who"
             text what id "what"
+            
 
 
 ################################################################################
@@ -43,21 +44,21 @@ style cinematic_frame is empty:
     yfill True
 
 style cinematic_vbox:
-    xalign 1
-    yalign 1
-    spacing 24
+    xfill True
+    yalign 0.4
+    spacing 10
 
 style cinematic_who:
-    xalign 1
     size 45
+    text_align 1
     color "#bab0bf"
     outlines [(2, "#000000", 0, 0)]
 
 style cinematic_what:
-    xalign 1
     xmaximum 1200
-    text_align 0
-    size 52
-    line_leading 8
+    text_align 0.5
+    xalign 0.5
+    size 55
+    line_leading 12
     color "#bab0bf"
     outlines [(2, "#000000", 0, 0)]

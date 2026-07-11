@@ -268,8 +268,8 @@ style quick_button is default
 style quick_button_text is button_text
 
 style quick_menu:
-    xalign 0.5
-    yalign 1.0
+    xpos 1185
+    ypos 980
 
 style quick_button:
     properties gui.button_properties("quick_button")
@@ -384,7 +384,7 @@ style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
-    xsize 420
+    xsize 450
     yfill True
 
     background "gui/overlay/main_menu.png"
