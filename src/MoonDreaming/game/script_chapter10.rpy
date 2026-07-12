@@ -386,5 +386,4 @@ label chapter_ten:
 
     stop music fadeout 4.0
     scene cg blank with fadehold
-
-    call MainMenu(confirm=False, save=True)
+    $ renpy.full_restart()
