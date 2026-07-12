@@ -4,6 +4,8 @@
 
 label chapter_one:
 
+    scene cg blank
+
     cn "Our makeup and our clothes are a mundane armor against a hostile world."
 
     cn "Leaves less room for others to attack us and get under our tender skin, their criticisms are only of the external shell. \nOur ugly, strange, true, fleshy selves are safe within."

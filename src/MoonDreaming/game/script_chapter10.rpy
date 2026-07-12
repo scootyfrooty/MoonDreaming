@@ -5,7 +5,7 @@
 
 label chapter_ten:
 
-    scene bg housefront with fadehold
+    scene bg housefront
     play music pad_low fadein 1.0
 
     cn "Silvia's reply had been simple: \n\"Good.\"she'd said. \"Let's do another one-on-one. Meet me at my place. 
@@ -117,33 +117,47 @@ label chapter_ten:
     play music pt_soundscape fadein 2.0
 
     n "She guided me through sukhasana, child's pose, and other relaxed yoga poses, breathing in and out gently. 
-    The nervous anticipation I had built up began to release. This was okay, this would be okay. This was what I needed.  "
+    The nervous anticipation I had built up began to release."
+
+    n "This was okay, this would be okay. This was what I needed. "
 
     nvl clear 
 
     s "I asked you about your family last time."
 
-    n "I tensed up immediately. Silvia noticed, and took a pause to stretch before continuing. "
+    n "I tensed up immediately." 
+    
+    n "Silvia noticed, and took a pause to stretch before continuing. "
 
     s "...I asked you about your family, and you were not yet ready to sit with those feelings. For the next 
     part of your journey, I need you to be able to sit with that discomfort. Feel the feelings, and let them wash over and through you."
+
+    nvl clear 
 
     s "That is what surrender is for. I need you to sit with me, so that when negative emotions come up, you 
     will not just get up and leave."
 
     s "Can you promise me that?"
 
-    a "Yes...I will do my best."
+    a "Yes... I will do my best."
 
     s "Excellent."
 
-    s "Think of your family again, and the negative energy you feel around them. Just like we did in the shadow 
+    s "Think of your family again, and the negative energy you feel around them."
+     
+    s "Just like we did in the shadow 
     circle, cup your hands, and pour that energy into your open hands. Hold it for me."
 
-    n "I did as she asked. I felt tears welling in my eyes as I thought about the conversation the other day, and all the 
+    scene cg hands
+
+    nvl clear
+
+    cn "I did as she asked. I felt tears welling in my eyes as I thought about the conversation the other day, and all the 
     baggage behind it. I held it in my hands. There was so much negativity it felt like it would overflow and spill out of my palms."
+
+    nvl clear 
     
-    s "That's it....now, don't tell me about it right away. Just hold it, let it sit."
+    s "That's it.... now, don't tell me about it right away. Just hold it, let it sit."
 
     s "It is here, but it is not controlling you."
 
@@ -156,6 +170,8 @@ label chapter_ten:
     n "In fact, everything felt lighter, brighter, more hopeful. My tears had stopped without me noticing. 
     The softness of the couch surrounded and enveloped me. "
 
+    nvl clear 
+
     s "Now, pour the energy into this vessel."
 
     n "She indicated an intricately formed ceramic jug on the table."
@@ -163,12 +179,23 @@ label chapter_ten:
     s "You can put it aside for now, and pick it up later. But know that you control this energy, it does not control you. 
     You can choose what affects you."
 
-    n "I tilted my cupped hands into the jug, visualizing the negativity flowing out of me and into this vessel. "
+    nvl clear 
 
-    n "I felt a warmth flow from my chest to my fingertips. My body felt light, and I could barely remember what I'd been so upset 
+    cn "I tilted my cupped hands into the jug, visualizing the negativity flowing out of me and into this vessel. "
+
+    cn "I felt a warmth flow from my chest to my fingertips. My body felt light, and I could barely remember what I'd been so upset 
     about minutes ago."
 
     n "Despite the somber tone of the ritual, I found myself giggling. Everything seemed suddenly funny, colorful, not that serious."
+
+    scene bg insidesilvia
+    show ana default with dissolve:
+        xpos 100
+        ypos 60
+
+    show silvia default with dissolve:
+        xpos 500
+        ypos 10
 
     s "Well done, Ana, dearest."
 
@@ -181,11 +208,17 @@ label chapter_ten:
 
     s "Yes, of course. The strength within you is unmatched, to say nothing of your beauty."
 
+    nvl clear 
+
     a "Whha-ha?"
 
     n "My head was spinning. She still thought this way about me, even after what I did last time? "
+    
+    nvl clear 
 
-    n "Silvia leaned in close to my face — just like before. But this time, the proximity felt delicious. 
+    show cg eyes sunset with dissolve
+
+    cn "Silvia leaned in close to my face — just like before. But this time, the proximity felt delicious. 
     I wanted to frolic in the green meadow of her eyes. She smelled like incense and dreams. "
 
     s "You are one of the most beautiful women I've ever seen, in body and in soul. "
@@ -198,9 +231,16 @@ label chapter_ten:
 
     n "She touched my arm and I felt all my hairs stand on end. Electric."
 
+    nvl clear 
+
     n "She grinned knowingly, and caressed my arm again, more deliberately this time. Running her fingers so lightly over my skin 
-    that her touch felt like a whisper. It was almost unbearable how good it felt...why hadn't I wanted her to touch me before? 
-    This was bliss, this beautiful, perfect woman touching me."
+    that her touch felt like a whisper."
+    
+    n "It was almost unbearable how good it felt...why hadn't I wanted her to touch me before?"
+
+    n "This was bliss, this beautiful, perfect woman touching me."
+
+    nvl clear
 
     s "That's it. You're doing so well at surrendering, love. "
 
@@ -208,11 +248,28 @@ label chapter_ten:
 
     a "Deeper?"
 
+    nvl clear
+
+    scene bg insidesilvia
+
     n "Silvia slipped her hand into mine and pulled me upright. The room wobbled around me."
+
+    scene bg houseback with dissolve
 
     n "She guided me through her house and out the back door."
 
     n "The fresh forest air smelled divine. Trees rustled in the breeze, and the stars shone brightly overhead. "
+
+    scene bg shore night with dissolve
+    show ana default with dissolve:
+        xpos 100
+        ypos 60
+
+    show silvia default with dissolve:
+        xpos 500
+        ypos 10
+
+    nvl clear 
 
     n "Silvia pulled me towards the lake, with ecstatic urgency."
 
@@ -223,25 +280,40 @@ label chapter_ten:
 
     s "Trust me. Let me show you."
 
+    nvl clear
+    scene bg inlake with dissolve
+
     n "Still holding my hand, she waded into the water. Her hair looked silver and ethereal in the moonlight."
 
     n "The cold water lapped at my calves and I shivered involuntarily. "
 
     n "Silvia smiled back at me. I followed."
 
-    n "She wrapped her arms around me. Her body heat contrasted the cold of the water; I wanted to melt into her. 
+    n "She wrapped her arms around me."
+
+    scene cg inlake2 with dissolve 
+    
+    n "Her body heat contrasted the cold of the water; I wanted to melt into her. 
     Maybe, if I became part of her, I would be perfect like she was...."
 
-    n "She ran her hand tenderly through my hair, tucking a strand behind my ear.  Her eyes were dark and endless in the 
-    moonlight. I shivered again, this time from warmth."
+    nvl clear
 
-    s "You're such a powerful woman. You're so much more actualized now that you're not standing in your own way. 
-    Surrender is perfect for you, surrender is what you need. "
+    n "She ran her hand tenderly through my hair, tucking a strand behind my ear.  Her eyes were dark and endless in the 
+    moonlight. "
+    
+    n "I shivered again, this time from warmth."
+
+    s "You're such a powerful woman. You're so much more actualized now that you're not standing in your own way."
+
+    s "Surrender is perfect for you, surrender is what you need. "
 
     s "I want you to surrender completely for me now. Can you do that, Ana?"
 
-    n "I stared blankly at her, the water, the moon, and the stars for a moment. It all melded together into a blissful expanse. 
-    I felt my head nod."
+    n "I stared blankly at her, the water, the moon, and the stars for a moment. It all melded together into a blissful expanse."
+
+    n "I felt my head nod."
+
+    nvl clear
 
     s "Tell me."
 
@@ -249,12 +321,17 @@ label chapter_ten:
 
     s "Good girl."
 
-    n "She lunged toward me and kissed me hungrily. Our tongues twisted together. Her hands grasping under my shirt, pressing into me. 
-    I felt like I was truly melting into her. Sweet, all-encompassing. Us and the moon and the water. Fuck, she felt so good..."
+    n "She lunged toward me and kissed me hungrily. Our tongues twisted together. Her hands grasping under my shirt, pressing into me. "
+
+    n "I felt like I was truly melting into her." 
+    
+    n "Sweet, all-encompassing. Us and the moon and the water. Fuck, she felt so good..."
+
+    nvl clear
 
     n "After forever, she pulled back. Our eyes intertwined."
 
-    show cg eyes
+    show cg eyes with dissolve
 
     s "Yes, that's it. You're doing so good for me."
 
@@ -262,8 +339,11 @@ label chapter_ten:
 
     n "Her voice dripped like sweet honey. I wanted to drink it up."
 
+    nvl clear 
+
     n "She cupped my head in her hand and lowered it back into the water like a baptism. Her eyes stayed locked in mine; her hands were so soft. "
 
+    show cg reed with dissolve
     n "In her grasp, I moved like a reed through the water. Flowing naturally, forming curves and shapes. In, and out, I couldn't tell when 
     I was above water or below. Somehow, my body instinctively knew when I should hold my breath. "
 
@@ -307,4 +387,4 @@ label chapter_ten:
     stop music fadeout 4.0
     scene cg blank with fadehold
 
-return 
+    call MainMenu(confirm=False, save=True)

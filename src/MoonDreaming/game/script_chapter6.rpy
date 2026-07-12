@@ -7,7 +7,7 @@ image cg_eyes = "cg eyes.png"
 label chapter_six:
 
     nvl clear 
-    scene cg blank with fadehold
+    scene bg studio day
 
     cn "I continued attending one class with Silvia every Sunday afternoon. 
     \nEach time I could feel my confidence grow a little more. 
@@ -20,7 +20,7 @@ label chapter_six:
 
     cn "After a few standard yoga sessions, I felt ready to try one of her more intense courses."
 
-    scene bg studio night with fade
+    scene bg studio night
     play sound "pad_low.mp3" volume 0.7
 
     show ana default with easeinleft:

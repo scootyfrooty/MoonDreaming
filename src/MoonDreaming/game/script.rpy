@@ -24,10 +24,8 @@ define fadehold = Fade(0.5, 1.0, 0.5)
 #############################################################################################
 
 label start:
+    call chapter_one
 
-    scene bg houseback
-
-    jump chapter_select
 
 
 # A looping chapter-select menu. Each choice `call`s a chapter (which returns
@@ -69,4 +67,4 @@ label chapter_select:
             call chapter_ten
 
     # Loop back to the menu after a chapter returns.
-    jump chapter_select
+    call MainMenu(confirm=False, save=True)

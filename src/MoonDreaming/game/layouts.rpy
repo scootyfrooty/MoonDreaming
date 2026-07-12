@@ -23,7 +23,7 @@ screen cinematic_say(who, what):
     zorder 100
 
     ## Full-screen dim behind the text.
-    add "#0000004b"
+    add "#26212b4b"
 
     frame:
         at cinematic_appear
@@ -45,11 +45,11 @@ style cinematic_frame is empty:
 
 style cinematic_vbox:
     xfill True
-    yalign 0.4
+    yalign 0.5
     spacing 10
 
 style cinematic_who:
-    size 45
+    size 30
     text_align 1
     color "#bab0bf"
     outlines [(2, "#000000", 0, 0)]
@@ -58,7 +58,6 @@ style cinematic_what:
     xmaximum 1200
     text_align 0.5
     xalign 0.5
-    size 55
-    line_leading 12
-    color "#bab0bf"
-    outlines [(2, "#000000", 0, 0)]
+    size 30
+    line_leading 4
+    color "#dfd7e3"

@@ -102,7 +102,7 @@ label chapter_eight:
 
     a "And the yard was brimming with fireflies." 
 
-    #### SELFNOTE: firefly graphic
+    show cg fireflies with dissolve
 
     a "I had never seen fireflies before. I thought they were little stars." 
 
@@ -266,17 +266,16 @@ label chapter_eight:
 
     nvl clear 
 
-    show cg eyes sunset with hpunch
+    scene cg eyes sunset with hpunch
 
-    n "My eyes flew open. Silvia filled my entire field of vision, with her vivid, hazel-green eyes looking deep into mine. 
+    cn "My eyes flew open. Silvia filled my entire field of vision, with her vivid, hazel-green eyes looking deep into mine. 
     Our faces were just inches apart. "
 
-    n "I squirmed backwards. Silvia continued to gaze at me with a calm but focused expression."
+    scene cg seduction
+
+    cn "I squirmed backwards. Silvia continued to gaze at me with a calm but focused expression."
 
     nvl clear 
-
-    hide cg eyes sunset
-    show bg studio sunset2
 
     s "You got distracted."
 
@@ -299,6 +298,8 @@ label chapter_eight:
     s "I know you don't. You are not ready yet."
 
     s "Come back only when you are ready. For now, you are dismissed."
+
+    scene bg studio sunset2
 
     a "I'm... I'm really sorry. For everything? I'm sorry. I don't know."
 
