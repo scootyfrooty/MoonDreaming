@@ -6,7 +6,7 @@ label chapter_nine:
 
     play music "pad_low.mp3"
 
-    scene bg bedroom day 
+    scene bg bedroom day
     cn "The next few days passed in a haze."
     scene bg livingroom day
     cn "I woke up, I went to work, I came home, I went to sleep."
@@ -15,21 +15,21 @@ label chapter_nine:
     scene bg apt night
 
     cn "Half formed thoughts whirled in my head. \nWhat the fuck was that session? Why did I talk about my family so badly?"
-    scene bg bedroom day 
+    scene bg bedroom day
 
-    cn "Why did she touch me?  Did I actually do something wrong?" 
+    cn "Why did she touch me?  Did I actually do something wrong?"
     scene bg livingroom day
-    
+
     cn "I tried to sort through it, but it made my head hurt."
     scene bg office
 
     cn "I did my best to act normal around Emily. She teased me about the session afterwards, of course."
     scene bg apt night
-    
-    cn "I told her it went fine. \nBy the face  she made, I could tell she was concerned that I suddenly didn't want to share, but after a bit, she stopped asking. "
-    scene bg bedroom night 
 
-    cn "I tried to watch new episodes of my favorite true crime shows, but something about them just wouldn't stick in my head. \nI put on re-runs 
+    cn "I told her it went fine. \nBy the face  she made, I could tell she was concerned that I suddenly didn't want to share, but after a bit, she stopped asking. "
+    scene bg bedroom night
+
+    cn "I tried to watch new episodes of my favorite true crime shows, but something about them just wouldn't stick in my head. \nI put on re-runs
     instead. \nFamiliar. Less likely to disappoint."
 
     show ana default with easeinleft:
@@ -88,12 +88,12 @@ label chapter_nine:
 
     a "Even if dating isn't going well right now, I've been working on myself."
 
-    a "I've been going to yoga classes every week at this local studio and I've gotten a lot better at it! I've gotten so much more 
+    a "I've been going to yoga classes every week at this local studio and I've gotten a lot better at it! I've gotten so much more
     flexible, and I've started talking to the other women in class. It makes me feel really powerful! "
 
     nvl clear
 
-    n "Desperately grasping for something that was going right in my life, I'd fallen back on my yoga journey over the past few weeks. 
+    n "Desperately grasping for something that was going right in my life, I'd fallen back on my yoga journey over the past few weeks.
     It's true, I was proud of my progress, and it had been making me feel better... until that session with Silvia. I squashed those feelings down."
 
     a "And I really like the instructor who runs the classes."
@@ -106,10 +106,10 @@ label chapter_nine:
 
     n "There was a brief pause at the other end of the line, it felt like an eternity."
 
-    m "Ah, mija, I'm glad you've been doing something that feels good to you! But don't you think it would be better to spend your time setting 
+    m "Ah, mija, I'm glad you've been doing something that feels good to you! But don't you think it would be better to spend your time setting
     up your future? Setting aside money for your family?"
 
-    p "The smart move would be to have a steady career before getting into hobbies like that. It can be expensive, you know? And it's not going 
+    p "The smart move would be to have a steady career before getting into hobbies like that. It can be expensive, you know? And it's not going
     to bring in any money."
 
     o "You're both being too harsh on her. She just graduated! I might've had a full-time job lined up by then but it doesn't mean everyone has to. "
@@ -158,7 +158,7 @@ label chapter_nine:
 
     n "I know they love me. I know they think they want the best for me. But I can never do anything the way they want me to."
 
-    nvl clear 
+    nvl clear
 
     n "I wish they would just be happy for me for once. "
 
@@ -181,6 +181,3 @@ label chapter_nine:
     cn "I'm ready now."
 
     stop music fadeout 2
-
-
-call chapter_ten

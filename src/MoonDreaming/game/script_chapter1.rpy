@@ -13,5 +13,3 @@ label chapter_one:
     cn "And if they kill us anyway, at least we'll be the perfect, beautiful victim. \nStill safe. Still unknowable."
 
     cn "But who are we, truly?"
-
-call chapter_two

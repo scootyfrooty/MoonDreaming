@@ -4,7 +4,7 @@
 
 
 label chapter_two:
-    
+
     nvl clear
 
     scene bg livingroom night
@@ -34,10 +34,10 @@ label chapter_two:
     e "Always!! This is why I don't date men, shit's shady out there."
 
     a "Ahhhh girl I wish. I can't give them up. I just like some good dick once in a while y'know??
-    And Mama would have my ass if I didn't bring her home a husband eventually. 
+    And Mama would have my ass if I didn't bring her home a husband eventually.
     It would be the last straw for her."
 
-    e "There's no way Brad gave you good dick, dude. Dude had an odor. 
+    e "There's no way Brad gave you good dick, dude. Dude had an odor.
     You couldn't bring that home to your mom!"
 
     a "Okay okay maybe just acceptable dick. Average dick. "
@@ -62,8 +62,8 @@ label chapter_two:
     n "The 4th ad in a row for {i}SmartMattress: The final frontier of sleep{/i} finally concluded, and the
     true crime show continued."
 
-    tv "{i}The case was about to take a turn: When DNA tests came back for the suspected murder weapon, 
-    the tests confirmed that most of the blood on the hammer was the victim's blood. But there was also a 
+    tv "{i}The case was about to take a turn: When DNA tests came back for the suspected murder weapon,
+    the tests confirmed that most of the blood on the hammer was the victim's blood. But there was also a
     second source of blood: her boyfriend.{/i}"
 
     a "Knew it!"
@@ -71,30 +71,30 @@ label chapter_two:
     tv "{i}In earlier interrogations, police had noticed scratches on his hands that were consistent with defensive
     wounds. Combined with the DNA evidence, things were not looking good for Don in court. {/i}"
 
-    tv "{i}Don Joe had appeared distraught when the police informed him of his girlfriend's death, 
+    tv "{i}Don Joe had appeared distraught when the police informed him of his girlfriend's death,
     falling to his knees and sobbing in front of the officer. "
-    
-    tv "{i} He even played the heartbroken boyfriend on the local news, telling Jane's story, and asking for donations to help 
-    fund her memorial.{/i}" 
-    
+
+    tv "{i} He even played the heartbroken boyfriend on the local news, telling Jane's story, and asking for donations to help
+    fund her memorial.{/i}"
+
     tv "{i}But was this all just a front? What sort of person would do something like this?{/i}"
 
     a "You can't trust a mean boyfriend, but also can't trust a guy who's wayyyy too nice.
-    I'd need like...a Goldilocks guy. Not abusive, but not someone who pretends to be a sweet golden 
+    I'd need like...a Goldilocks guy. Not abusive, but not someone who pretends to be a sweet golden
     retriever boyfriend either. It's never real."
 
     nvl clear
 
     e " Oof... it's rough out there,huh?"
-    
+
     e "I only watch this show with you once a week, but you've got these kinds of assholes clocked for real."
 
     a "Aha... yeah a little bit. I started watching true crime shows with my mom and sister when I was little."
 
-    a "I must've been like 8? I wanted to be just like big sis, so I'd put on a brave face any time I got scared, until I stopped being 
-    scared by it any more. It's really just the same stuff every time. I'd think people would know better by now." 
-    
-    a "Like, don't go on a walk in the woods with some dude you just met! Don't let your husband take out a life insurance policy in your name! 
+    a "I must've been like 8? I wanted to be just like big sis, so I'd put on a brave face any time I got scared, until I stopped being
+    scared by it any more. It's really just the same stuff every time. I'd think people would know better by now."
+
+    a "Like, don't go on a walk in the woods with some dude you just met! Don't let your husband take out a life insurance policy in your name!
     Never trust a man with a woodchipper!"
 
     e "Oh my god, my family would never let me watch anything that wasn't PBS or Disney channel when I was little, I think they thought it would corrupt me? But look how I turned out anyway."
@@ -103,7 +103,7 @@ label chapter_two:
 
     e "Arthur was a pretty fire show though, if I'm being honest."
 
-    a "Haha, yeah. I barely remember it because I only watched it when I was really tiny. As soon as 
+    a "Haha, yeah. I barely remember it because I only watched it when I was really tiny. As soon as
     Mama would let me, I wanted to watch whatever Sophia was watching."
 
     n "The show finished up, the boyfriend was found guilty, no surprises there."
@@ -137,30 +137,28 @@ label chapter_two:
         xpos 260
         ypos 30
 
-    n "I flopped down onto my bed. Whenever I thought about dates, I just felt a sense of dread. 
+    n "I flopped down onto my bed. Whenever I thought about dates, I just felt a sense of dread.
     Emily seemed to be so playful with it, even when things weren't going perfectly."
 
     n "I don't want to end up dead in a ditch somewhere. Whenever a guy I was seeing showed me his red flags,
     I couldn't get out of there fast enough."
 
-    n "Sometimes it was a comment about how \"girls don't know how to take a joke\", or how \"my mom is such 
-    a bitch\". Other times it was scratchy stubble, beer cans as decoration, deodorant that was way too 
-    stinky. Or he would have stupid hobbies like ultimate frisbee or lifting weights or making espresso or 
+    n "Sometimes it was a comment about how \"girls don't know how to take a joke\", or how \"my mom is such
+    a bitch\". Other times it was scratchy stubble, beer cans as decoration, deodorant that was way too
+    stinky. Or he would have stupid hobbies like ultimate frisbee or lifting weights or making espresso or
     playing video games. And the old classic — the unsolicited dick pic."
 
     nvl clear
 
 
-    n "I was becoming convinced that every man was a walking red flag — I could rarely make it past a 
+    n "I was becoming convinced that every man was a walking red flag — I could rarely make it past a
     first date before something about him started grating on me."
 
     n "It's so... annoying!!"
 
-    n "Is this what being a successful adult is like? Working a stupid job, dating stupid men, so I can 
+    n "Is this what being a successful adult is like? Working a stupid job, dating stupid men, so I can
     eventually save up the money to have stupid children and a stupid house? Ugh. This is a fucking slog."
-    
+
     hide ana default
     stop music fadeout 1.0
-    nvl clear 
-
-call chapter_three
+    nvl clear

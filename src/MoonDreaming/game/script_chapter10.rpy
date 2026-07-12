@@ -8,7 +8,7 @@ label chapter_ten:
     scene bg housefront
     play music pad_low fadein 1.0
 
-    cn "Silvia's reply had been simple: \n\"Good.\"she'd said. \"Let's do another one-on-one. Meet me at my place. 
+    cn "Silvia's reply had been simple: \n\"Good.\"she'd said. \"Let's do another one-on-one. Meet me at my place.
     Demonstrate to me that you're ready this time.\""
 
     nvl clear
@@ -17,23 +17,23 @@ label chapter_ten:
         xpos 100
         ypos 60
 
-    n "The rideshare pulled away, leaving me on her front doorstep." 
-    
-    n "The house was smaller than I had expected, a humble one-story. 
+    n "The rideshare pulled away, leaving me on her front doorstep."
+
+    n "The house was smaller than I had expected, a humble one-story.
     I guess I'd imagined she'd have some kind of mansion."
 
     n "The front yard was full of overgrown grass and large flowering bushes, surrounded on either side by forest."
 
     n "I could see a glimpse of a large lake behind the house, and a dock on the lake."
-    
-    n "It was the kind of neighborhood where everyone had a 
+
+    n "It was the kind of neighborhood where everyone had a
     lakeside view. The trees were pretty dense, but I could see glimmers of her neighbor's lights through the forest."
 
     nvl clear
 
     n "There were a couple fireflies flickering in her yard."
-    
-    n "A small comfort — I still had a soft spot for them. 
+
+    n "A small comfort — I still had a soft spot for them.
     But I winced as I thought about what happened last session."
 
     n "I rang her doorbell. It echoed inside, sounding like a singing bowl."
@@ -71,16 +71,16 @@ label chapter_ten:
 
     n "I stood self-consciously in her living space as she went to the kitchen to fetch drinks. "
 
-    n "It was filled with an eclectic combination of spiritual iconography: candles, moon-shape crystals, several mandalas, 
+    n "It was filled with an eclectic combination of spiritual iconography: candles, moon-shape crystals, several mandalas,
     and a portrait of mother Mary that looked like the one in my parents' dining room. "
 
-    n "Incense was thick in the air. The living room gave the impression of a tent, with ornate red tapestries 
+    n "Incense was thick in the air. The living room gave the impression of a tent, with ornate red tapestries
     draped over the walls, and a formless plush couch."
-    
-    n "There were a couple half-empty bottles of whiskey on a low table 
+
+    n "There were a couple half-empty bottles of whiskey on a low table
     in the center of the room, along with an incense holder and scattered ash."
-    
-    n " She didn't have a TV in the living room... 
+
+    n " She didn't have a TV in the living room...
     maybe she considered herself the kind of person who was above watching trashy shows?"
 
     nvl clear
@@ -89,21 +89,21 @@ label chapter_ten:
         xpos 500
         ypos 10
 
-    n "Silvia returned, and handed me a cup of dark orange kombucha. She gestured for me to join her on the couch." 
-    
-    n "I sat 
+    n "Silvia returned, and handed me a cup of dark orange kombucha. She gestured for me to join her on the couch."
+
+    n "I sat
     down awkwardly, trying to maintain some distance between us."
 
     n "The kombucha was funky and fruity, with a bitter aftertaste. Bluh. I preferred the tea we'd had in class."
-    
-    n "This taste 
+
+    n "This taste
     was hard to get off my tongue... I've never been a fan of kombucha."
 
     nvl clear
 
     s "In tonight's session, I want us to focus on surrender."
 
-    s" Last time, you were getting in your own way. If you really 
+    s" Last time, you were getting in your own way. If you really
     want to be able to reach the next level of your journey, you will need to let that go."
 
     s "Are you feeling ready?"
@@ -129,7 +129,7 @@ label chapter_ten:
     
     n "Silvia noticed, and took a pause to stretch before continuing. "
 
-    s "...I asked you about your family, and you were not yet ready to sit with those feelings. For the next 
+    s "...I asked you about your family, and you were not yet ready to sit with those feelings. For the next
     part of your journey, I need you to be able to sit with that discomfort. Feel the feelings, and let them wash over and through you."
 
     nvl clear 
@@ -164,10 +164,10 @@ label chapter_ten:
     s "Can you feel the difference? "
 
     n "I thought I could. The more minutes passed, the memories felt lighter and easier to bear."
-        
+
     a "Yes, Silvia."
 
-    n "In fact, everything felt lighter, brighter, more hopeful. My tears had stopped without me noticing. 
+    n "In fact, everything felt lighter, brighter, more hopeful. My tears had stopped without me noticing.
     The softness of the couch surrounded and enveloped me. "
 
     nvl clear 
@@ -176,7 +176,7 @@ label chapter_ten:
 
     n "She indicated an intricately formed ceramic jug on the table."
 
-    s "You can put it aside for now, and pick it up later. But know that you control this energy, it does not control you. 
+    s "You can put it aside for now, and pick it up later. But know that you control this energy, it does not control you.
     You can choose what affects you."
 
     nvl clear 
@@ -201,7 +201,7 @@ label chapter_ten:
 
     s "This is just the first step of this journey, but you are doing beautifully."
 
-    s "I knew you would rise to the challenge, even if it took you a few tries. I could see from the moment I met you that 
+    s "I knew you would rise to the challenge, even if it took you a few tries. I could see from the moment I met you that
     you were special."
 
     a "Ahaha, you really think so?"
@@ -273,7 +273,7 @@ label chapter_ten:
 
     n "Silvia pulled me towards the lake, with ecstatic urgency."
 
-    s "You're ready to commune with the sacred water. Your heart and soul will be opened. 
+    s "You're ready to commune with the sacred water. Your heart and soul will be opened.
     You'll be ready to reach new heights in your journey."
 
     a "What do you mean?"
@@ -363,7 +363,7 @@ label chapter_ten:
 
     scene bg underwater2 with zoomout
 
-    cn "Her gentle hands became a vice on my body, over my face. Everything was blurry and cold and the stars were 
+    cn "Her gentle hands became a vice on my body, over my face. Everything was blurry and cold and the stars were
     stinging my eyes. Water echoed and rushed around me. Cold. Fucking cold. I thrashed. I couldn't make it stop. I couldn't — "
 
     scene cg drowning with dissolve
@@ -386,4 +386,3 @@ label chapter_ten:
 
     stop music fadeout 4.0
     scene cg blank with fadehold
-    $ renpy.full_restart()

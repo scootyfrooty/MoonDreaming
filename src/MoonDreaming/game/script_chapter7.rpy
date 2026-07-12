@@ -13,8 +13,8 @@ label chapter_seven:
 
     n "I plopped on the couch and started scrolling mindlessly through videos, but my mind was elsewhere. "
 
-    n "Silvia really thought I had a \"beautiful soul\"? Me, of all people?" 
-    
+    n "Silvia really thought I had a \"beautiful soul\"? Me, of all people?"
+
     n "Even after I told her and everyone what I'd done? "
 
     n "I can't believe she's being so kind to me."
@@ -34,11 +34,11 @@ label chapter_seven:
     show ana default at hop
     a "Heyyy Emilyy!"
 
-    e "Mannn my clients today were so picky, what a long day. Got dinner with the GF to blow off some steam. 
+    e "Mannn my clients today were so picky, what a long day. Got dinner with the GF to blow off some steam.
     How're you?"
 
     a "Oh y'know, the usual same old shit at work. "
-    
+
     a "I went to another yoga session afterwards, I just got home. "
 
     e "Oh yeah, same instructor? That new age lady you were talking about from Instagram?"
@@ -50,11 +50,11 @@ label chapter_seven:
     a "The session was honestly kind of a lot this evening. "
 
     a "But Silvia, the instructor, came up to me afterwards and offered me a free one on one session? "
-    
+
     a "Just me, no one else. She said I had a \"beautiful soul\"."
 
-    e "Woahhhhh, that's crazy." 
-    
+    e "Woahhhhh, that's crazy."
+
     e "It kinda sounds like she's flirting!"
 
     a "What? No, I think that's just how she talks. Souls and energy and shadow work and shit."
@@ -63,14 +63,14 @@ label chapter_seven:
 
     e "I dunno girl, it seems like she wants you."
 
-    e "Why else would she give you a one on one for free? Usually coaches want 
+    e "Why else would she give you a one on one for free? Usually coaches want
     all the money they can get from you."
 
     a "No I reallyyy doubt it's something like that. "
-    
-    a "She...looks pretty straight?" 
-    
-    a "And she'd be way out of my league anyway, 
+
+    a "She...looks pretty straight?"
+
+    a "And she'd be way out of my league anyway,
     she's gorgeous and skinny and her hair is always perfect."
 
     e "If you say so! "
@@ -89,13 +89,11 @@ label chapter_seven:
 
     a "Yeah for sure."
 
-    n "It's so much like Emily to read everything in a gay way. It doesn't have to be like that, just because a pretty 
-    woman gave me attention." 
-    
+    n "It's so much like Emily to read everything in a gay way. It doesn't have to be like that, just because a pretty
+    woman gave me attention."
+
     n "I'll go to the session next week, and I'll see what it's really like."
 
     nvl clear
     stop music fadeout 2
     scene cg blank with fadehold
-
-call chapter_eight
