@@ -38,12 +38,12 @@ define n = Character(None, kind=nvl, what_font="Geist-LightItalic.ttf", color="#
 ## defined in layouts.rpy. Anything spoken by them renders centered on screen
 ## with no textbox.
 
-define ca = Character("Ana", screen="cinematic_say", color="#bab0bf")
-define ce = Character("Emily", screen="cinematic_say", color="#bab0bf")
-define cs = Character("Silvia", screen="cinematic_say", color="#bab0bf")
-define co = Character("Sophia",screen="cinematic_say", color="#bab0bf")
-define tvc = Character ("TV Narrator", screen="cinematic_say", color="#bab0bf")
-define cn = Character(None, screen="cinematic_say", what_font="GeistMono-Italic-VariableFont_wght.ttf")  # cinematic narration
+define ca = Character("Ana", screen="cinematic_say", what_style="cinematic_what", who_style="cinematic_who", color="#bab0bf")
+define ce = Character("Emily", screen="cinematic_say",what_style="cinematic_what", who_style="cinematic_who", color="#bab0bf")
+define cs = Character("Silvia", screen="cinematic_say",what_style="cinematic_what", who_style="cinematic_who", color="#bab0bf")
+define co = Character("Sophia",screen="cinematic_say",what_style="cinematic_what", who_style="cinematic_who", color="#bab0bf")
+define tvc = Character ("TV Narrator", screen="cinematic_say",what_style="cinematic_what", who_style="cinematic_who", color="#bab0bf")
+define cn = Character(None, screen="cinematic_say",what_style="cinematic_what", what_font="GeistMono-Italic-VariableFont_wght.ttf")  # cinematic narration
 
 
 ################################################################################
