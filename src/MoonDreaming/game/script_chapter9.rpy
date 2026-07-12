@@ -4,24 +4,51 @@
 
 label chapter_nine:
 
-    n "The next few days passed in a haze. I woke up, I went to work, I came home, I went to sleep. The next day I did it again."
+    play music "pad_low.mp3"
 
-    n "Half formed thoughts whirled in my head. What the fuck was that session? Why did I talk about my family so badly? Why did she touch me? 
-    Did I actually do something wrong? I tried to sort through it, but it made my head hurt."
+    scene bg bedroom day 
+    cn "The next few days passed in a haze."
+    scene bg livingroom day
+    cn "I woke up, I went to work, I came home, I went to sleep."
+    scene bg office
+    cn "The next day I did it again."
+    scene bg apt night
 
-    n "I did my best to act normal around Emily. She teased me about the session afterwards, of course. I told her it went fine. By the face 
-    she made, I could tell she was concerned that I suddenly didn't want to share, but after a bit, she stopped asking. "
+    cn "Half formed thoughts whirled in my head. \nWhat the fuck was that session? Why did I talk about my family so badly?"
+    scene bg bedroom day 
 
-    n "I tried to watch new episodes of my favorite true crime shows, but something about them just wouldn't stick in my head. I put on re-runs 
-    instead. Familiar. Less likely to disappoint."
+    cn "Why did she touch me?  Did I actually do something wrong?" 
+    scene bg livingroom day
+    
+    cn "I tried to sort through it, but it made my head hurt."
+    scene bg office
+
+    cn "I did my best to act normal around Emily. She teased me about the session afterwards, of course."
+    scene bg apt night
+    
+    cn "I told her it went fine. \nBy the face  she made, I could tell she was concerned that I suddenly didn't want to share, but after a bit, she stopped asking. "
+    scene bg bedroom night 
+
+    cn "I tried to watch new episodes of my favorite true crime shows, but something about them just wouldn't stick in my head. \nI put on re-runs 
+    instead. \nFamiliar. Less likely to disappoint."
+
+    show ana default with easeinleft:
+        xpos 100
+        ypos 60
+
+    stop music fadeout 3.0
 
     n "One night, my sister called as I was in the middle of watching."
 
     a "Hey Sophia."
 
-    s "Ana, hello!"
+    show ana default at hop
 
-    s "I'm at Mama and Papa's right now — guys, Ana's on the phone!"
+    o "Ana, hello!"
+
+    o "I'm at Mama and Papa's right now — guys, Ana's on the phone!"
+
+    nvl clear
 
     n "There was a rustling against the microphone as the phone was jostled around."
 
@@ -37,17 +64,23 @@ label chapter_nine:
 
     p "I'm looking forward to hearing about a promotion soon! I know you've got it in you, mijita."
 
+    nvl clear
+
     a "Ah, thank you, I'll try my best. "
 
     a "I'm not really sure what opportunities for advancement there are in this job, I'm just an intern right now so it might only be for one season."
 
     p "I'm sure there's something there for you, if you talk to the right people! Ask around, see what's out there. "
 
+    play music soundscape fadein 8.0
+
     m "Yes, what your Papa said! But even if jobs don't come right away, maybe you'll meet a nice young man to help get you set up. "
 
     a "I'm trying, I swear! The young men here aren't so nice. "
 
-    s "She is right about that, she's been telling me all about it."
+    o "She is right about that, she's been telling me all about it."
+
+    nvl clear
 
     m "You're telling Sophia all of this, but not us?! Ana, we're your parents. We want to know."
 
@@ -58,6 +91,8 @@ label chapter_nine:
     a "I've been going to yoga classes every week at this local studio and I've gotten a lot better at it! I've gotten so much more 
     flexible, and I've started talking to the other women in class. It makes me feel really powerful! "
 
+    nvl clear
+
     n "Desperately grasping for something that was going right in my life, I'd fallen back on my yoga journey over the past few weeks. 
     It's true, I was proud of my progress, and it had been making me feel better... until that session with Silvia. I squashed those feelings down."
 
@@ -67,6 +102,8 @@ label chapter_nine:
 
     a "...cool."
 
+    nvl clear
+
     n "There was a brief pause at the other end of the line, it felt like an eternity."
 
     m "Ah, mija, I'm glad you've been doing something that feels good to you! But don't you think it would be better to spend your time setting 
@@ -75,19 +112,23 @@ label chapter_nine:
     p "The smart move would be to have a steady career before getting into hobbies like that. It can be expensive, you know? And it's not going 
     to bring in any money."
 
-    s "You're both being too harsh on her. She just graduated! I might've had a full-time job lined up by then but it doesn't mean everyone has to. "
+    o "You're both being too harsh on her. She just graduated! I might've had a full-time job lined up by then but it doesn't mean everyone has to. "
 
     a "Guys — "
 
+    nvl clear
+
     p "Someone has to keep her on track, personal responsibility is important. "
 
-    s "She was trying to share something that was important to her!"
+    o "She was trying to share something that was important to her!"
 
     m "Sophia, we're your parents too, please treat us like it. We just want what's best for both of you.  "
 
-    s "Mama — "
+    o "Mama — "
 
     a "GUYS."
+
+    nvl clear
 
     a "Please stop. It's okay."
 
@@ -101,9 +142,13 @@ label chapter_nine:
 
     a "I know, and I appreciate it. "
 
-    s "Ana, are you sure — "
+    o "Ana, are you sure — "
 
     a "I have to head out now, I love you all. Have a good night."
+
+    nvl clear
+
+    show ana with hpunch
 
     n "Tears released like a flood the moment I hung up the call. "
 
@@ -113,6 +158,8 @@ label chapter_nine:
 
     n "I know they love me. I know they think they want the best for me. But I can never do anything the way they want me to."
 
+    nvl clear 
+
     n "I wish they would just be happy for me for once. "
 
     n "And even when Sophia tries to defend me, she just rubs it in deeper. They never have problems with her. Because she's perfect."
@@ -121,11 +168,19 @@ label chapter_nine:
 
     n "I wish I could just follow what feels good. Work doesn't feel good. Going on dates doesn't feel good."
 
+    nvl clear
+
     n "...maybe I do really need help."
 
     n "I took a deep breath and opened Silvia's instagram. I sent just one message. "
 
-    a "I'm ready now."
+    nvl clear
+
+    hide ana
+
+    cn "I'm ready now."
+
+    stop music fadeout 2
 
 
 call chapter_ten

@@ -8,50 +8,69 @@ label chapter_seven:
     play music raw fadein 0.5
 
     show ana default with easeinleft:
-        xpos 30
+        xpos 100
         ypos 60
 
     n "I plopped on the couch and started scrolling mindlessly through videos, but my mind was elsewhere. "
 
-    n "Silvia really thought I had a \"beautiful soul\"? Me, of all people? Even after I told her and everyone 
-    what I'd done? "
+    n "Silvia really thought I had a \"beautiful soul\"? Me, of all people?" 
+    
+    n "Even after I told her and everyone what I'd done? "
 
     n "I can't believe she's being so kind to me."
 
-    n "I'm not sure if I'm ready for one-on-one shadow work, if a group setting was already that intense....
+    n "I'm not sure if I'm ready for one-on-one shadow work, if a group setting was already that intense...
     but if Silvia thinks I'm ready, I want to trust her."
 
-    show emily default with easeinleft:
-        xpos 30
-        ypos 60
+    nvl clear
 
+    show emily default with easeinright:
+        xpos 500
+        ypos 40
+
+    show emily default at hop
     e "Hey girl!!"
 
+    show ana default at hop
     a "Heyyy Emilyy!"
 
     e "Mannn my clients today were so picky, what a long day. Got dinner with the GF to blow off some steam. 
     How're you?"
 
-    a "Oh y'know, the usual same old shit at work. I went to another yoga session afterwards, I just got 
-    home. "
+    a "Oh y'know, the usual same old shit at work. "
+    
+    a "I went to another yoga session afterwards, I just got home. "
 
     e "Oh yeah, same instructor? That new age lady you were talking about from Instagram?"
 
     a "Yup, that's her."
 
+    nvl clear
+
     a "The session was honestly kind of a lot this evening. "
 
-    a "But Silvia, the instructor, came up to me afterwards and offered me a free one on one session? Just me, no one else. 
-    She said I had a \"beautiful soul\"."
+    a "But Silvia, the instructor, came up to me afterwards and offered me a free one on one session? "
+    
+    a "Just me, no one else. She said I had a \"beautiful soul\"."
 
-    e "Woahhhhh, that's crazy. It kinda sounds like she's flirting with you!"
+    e "Woahhhhh, that's crazy." 
+    
+    e "It kinda sounds like she's flirting!"
 
-    a "What? No, I think that's just how she talks. Talking about souls and energy and shadow work and shit."
+    a "What? No, I think that's just how she talks. Souls and energy and shadow work and shit."
 
-    e "I dunno girl, it seems like she wants you. Why else would she give you a one on one for free? Usually coaches want 
+    nvl clear
+
+    e "I dunno girl, it seems like she wants you."
+
+    e "Why else would she give you a one on one for free? Usually coaches want 
     all the money they can get from you."
 
-    a "No I reallyyy doubt it's something like that. She...looks pretty straight? And she'd be way out of my league anyway, 
+    a "No I reallyyy doubt it's something like that. "
+    
+    a "She...looks pretty straight?" 
+    
+    a "And she'd be way out of my league anyway, 
     she's gorgeous and skinny and her hair is always perfect."
 
     e "If you say so! "
@@ -59,6 +78,8 @@ label chapter_seven:
     n "Emily winked very obviously, scrunching her cheeks up to do so."
 
     e "You seem pretty flattered by her attention."
+
+    nvl clear
 
     a "Well yeah, she's Ms. Perfect. It's crazy that she'd give someone like me the time of day if I'm not paying her."
 
@@ -69,6 +90,12 @@ label chapter_seven:
     a "Yeah for sure."
 
     n "It's so much like Emily to read everything in a gay way. It doesn't have to be like that, just because a pretty 
-    woman gave me attention. I'll go to the session next week, and I'll see what it's really like."
+    woman gave me attention." 
+    
+    n "I'll go to the session next week, and I'll see what it's really like."
+
+    nvl clear
+    stop music fadeout 2
+    scene cg blank with fadehold
 
 call chapter_eight

@@ -2,27 +2,58 @@
 #
 # Chapter 10. The climax: Ana's one on one session at Silvia's house.
 
+
 label chapter_ten:
-    n "Silvia's reply had been simple: \"Good.\"she'd said. \"Let's do another one-on-one. Meet me at my place. 
+
+    scene bg housefront with fadehold
+    play music pad_low fadein 1.0
+
+    cn "Silvia's reply had been simple: \n\"Good.\"she'd said. \"Let's do another one-on-one. Meet me at my place. 
     Demonstrate to me that you're ready this time.\""
 
-    n "The rideshare pulled away, leaving me on her front doorstep. The house was smaller than I had expected, a humble one-story. 
+    nvl clear
+    scene bg housefront
+    show ana default with easeinleft:
+        xpos 100
+        ypos 60
+
+    n "The rideshare pulled away, leaving me on her front doorstep." 
+    
+    n "The house was smaller than I had expected, a humble one-story. 
     I guess I'd imagined she'd have some kind of mansion."
 
-    n "The front yard was full of overgrown grass and large flowering bushes, surrounded on either side by forest.
-    I could see a glimpse of a large lake behind the house, and a dock on the lake. It was the kind of neighborhood where everyone had a 
+    n "The front yard was full of overgrown grass and large flowering bushes, surrounded on either side by forest."
+
+    n "I could see a glimpse of a large lake behind the house, and a dock on the lake."
+    
+    n "It was the kind of neighborhood where everyone had a 
     lakeside view. The trees were pretty dense, but I could see glimmers of her neighbor's lights through the forest."
 
-    n "There were a couple fireflies flickering in her yard. A small comfort — I still had a soft spot for them. 
+    nvl clear
+
+    n "There were a couple fireflies flickering in her yard."
+    
+    n "A small comfort — I still had a soft spot for them. 
     But I winced as I thought about what happened last session."
 
-    n "I rang her doorbell. It echoed inside, sounding like a singing bowl. "
+    n "I rang her doorbell. It echoed inside, sounding like a singing bowl."
 
     n "The door cracked open."
 
+
+    show silvia default with easeinright:
+        xpos 500
+        ypos 10
+
+    show silvia default at hop
+
     s "Welcome, Ana. I'm glad you've decided to return. Come inside."
 
+    nvl clear
+
     n "I took my shoes off out of habit and left them by the door."
+
+    show ana default at hop
 
     a "Is there someplace I should leave my bag?"
 
@@ -30,22 +61,49 @@ label chapter_ten:
 
     s "Let me get you some kombucha."
 
-    n "I stood self-consciously in her living space as she went to the kitchen to fetch drinks. 
-    It was filled with an eclectic combination of spiritual iconography: candles, moon-shape crystals, several mandalas, 
+
+    scene bg insidesilvia
+    show ana default with dissolve:
+        xpos 100
+        ypos 60
+
+    hide silvia default
+
+    n "I stood self-consciously in her living space as she went to the kitchen to fetch drinks. "
+
+    n "It was filled with an eclectic combination of spiritual iconography: candles, moon-shape crystals, several mandalas, 
     and a portrait of mother Mary that looked like the one in my parents' dining room. "
 
     n "Incense was thick in the air. The living room gave the impression of a tent, with ornate red tapestries 
-    draped over the walls, and a formless plush couch. There were a couple half-empty bottles of whiskey on a low table 
-    in the center of the room, along with an incense holder and scattered ash. She didn't have a TV in the living room... 
+    draped over the walls, and a formless plush couch."
+    
+    n "There were a couple half-empty bottles of whiskey on a low table 
+    in the center of the room, along with an incense holder and scattered ash."
+    
+    n " She didn't have a TV in the living room... 
     maybe she considered herself the kind of person who was above watching trashy shows?"
 
-    n "Silvia returned, and handed me a cup of dark orange kombucha. She gestured for me to join her on the couch. I sat 
+    nvl clear
+
+    show silvia default with easeinleft:
+        xpos 500
+        ypos 10
+
+    n "Silvia returned, and handed me a cup of dark orange kombucha. She gestured for me to join her on the couch." 
+    
+    n "I sat 
     down awkwardly, trying to maintain some distance between us."
 
-    n "The kombucha was funky and fruity, with a bitter aftertaste. Bluh. I preferred the tea we'd had in class. This taste 
-    was hard to get off my tongue...I've never been a fan of kombucha."
+    n "The kombucha was funky and fruity, with a bitter aftertaste. Bluh. I preferred the tea we'd had in class."
+    
+    n "This taste 
+    was hard to get off my tongue... I've never been a fan of kombucha."
 
-    s "In tonight's session, I want us to focus on surrender. Last time, you were getting in your own way. If you really 
+    nvl clear
+
+    s "In tonight's session, I want us to focus on surrender."
+
+    s" Last time, you were getting in your own way. If you really 
     want to be able to reach the next level of your journey, you will need to let that go."
 
     s "Are you feeling ready?"
@@ -56,8 +114,12 @@ label chapter_ten:
 
     s "Let's start with something familiar."
 
+    play music pt_soundscape fadein 2.0
+
     n "She guided me through sukhasana, child's pose, and other relaxed yoga poses, breathing in and out gently. 
     The nervous anticipation I had built up began to release. This was okay, this would be okay. This was what I needed.  "
+
+    nvl clear 
 
     s "I asked you about your family last time."
 
@@ -192,6 +254,8 @@ label chapter_ten:
 
     n "After forever, she pulled back. Our eyes intertwined."
 
+    show cg eyes
+
     s "Yes, that's it. You're doing so good for me."
 
     s "You're ready now."
@@ -205,27 +269,42 @@ label chapter_ten:
 
     n "I felt weightless, like I was drifting through the stars above. Divine and endless."
 
+    nvl clear
+
+    play music "BDWWDKL.mp3"
+    hide ana default
+    hide silvia default
+
     n "Abruptly she pushed her palm over my nose and mouth and —"
 
-    n "I fell backwards. The water surrounded me."
+    scene bg underwater1 with vpunch
 
-    n "Her gentle hands became a vice on my body, over my face. Everything was blurry and cold and the stars were 
+    cn "I fell backwards. The water surrounded me."
+
+    scene bg underwater2 with zoomout
+
+    cn "Her gentle hands became a vice on my body, over my face. Everything was blurry and cold and the stars were 
     stinging my eyes. Water echoed and rushed around me. Cold. Fucking cold. I thrashed. I couldn't make it stop. I couldn't — "
 
-    n "Her eyes were still locked with mine. Dark and empty. "
+    scene cg drowning with dissolve
 
-    n "Moonlight flowed through her silver hair like a halo. A goddess in my tunnel vision."
+    cn "Her eyes were still locked with mine. Dark and empty. "
 
-    n "My lungs began to burn with ice cold fire."
+    cn "Moonlight flowed through her silver hair like a halo. A goddess in my tunnel vision."
 
-    n "I gasped against her hand but it did nothing. "
+    cn "My lungs began to burn with ice cold fire."
 
-    n "Thrashed again and again and again — "
+    cn "I gasped against her hand but it did nothing. "
 
-    n "The stars gathered around me. The darkness of the water merged with the dark of the sky. "
+    cn "Thrashed again and again and again — "
 
-    n "The moon held me down, held me under, burned me, froze me. "
+    cn "The stars gathered around me. The darkness of the water merged with the dark of the sky. "
 
-    n "She was the last to fade as my vision went dark. "
+    cn "The moon held me down, held me under, burned me, froze me. "
+
+    cn "She was the last to fade as my vision went dark. "
+
+    stop music fadeout 4.0
+    scene cg blank with fadehold
 
 return 

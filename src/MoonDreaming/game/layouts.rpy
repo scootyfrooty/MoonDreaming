@@ -23,7 +23,7 @@ screen cinematic_say(who, what):
     zorder 100
 
     ## Full-screen dim behind the text.
-    add "#000000cc"
+    add "#0000004b"
 
     frame:
         at cinematic_appear

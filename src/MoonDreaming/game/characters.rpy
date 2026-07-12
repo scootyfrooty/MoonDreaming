@@ -22,7 +22,7 @@ define an = Character(None)  # plain narrator (no name)
 
 define a = Character("Ana", kind=nvl, color="#c2a0d0")
 define e = Character("Emily", kind=nvl, color="#d39dad")
-define s = Character("Silvia", kind=nvl, color="#c3b9a9")
+define s = Character("Silvia", kind=nvl, color="#e1cdac")
 define o = Character("Sophia", kind=nvl, color="#a0b4c7")
 define b = Character("Barista", kind=nvl, color="#bab0bf")
 define m = Character("Mama", kind=nvl, color="#c9a6ae")
