@@ -24,7 +24,6 @@ define fadehold = Fade(0.5, 1.0, 0.5)
 #############################################################################################
 
 label start:
-    call chapter_one
 
     scene bg houseback
     call chapter_one
