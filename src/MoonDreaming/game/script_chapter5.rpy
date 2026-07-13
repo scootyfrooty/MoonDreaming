@@ -160,8 +160,8 @@ label chapter_five:
     stop music fadeout 0.5
     nvl clear
 
-    n "Some folks headed towards the front of the room to talk to Silvia, others gathered their things and started h
-    eading for the door. A couple friends chatted in low voices with each other. "
+    n "Some folks headed towards the front of the room to talk to Silvia, others gathered their things and started heading for the door. 
+    A couple friends chatted in low voices with each other. "
     
     n "I got the sense that we had all experienced 
     something profound together, and didn't want to speak too loud for fear of disturbing it."
@@ -207,4 +207,4 @@ label chapter_five:
 
     stop music
 
-call chapter_six
+call chapter_six from _call_chapter_six

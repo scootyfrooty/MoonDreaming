@@ -53,8 +53,6 @@ label chapter_six:
 
     play music "amoebic_sea.mp3" fadein 4 
 
-    ############ SELFNOTE: how to loop and overlap these tracks? or crossfade?
-
     n "I felt nervousness growing in my chest for whatever came after this. "
 
     nvl clear 
@@ -106,7 +104,7 @@ label chapter_six:
 
     s "I was at a New Years party with my best friend. We went way back, you know? She was my ride or die." 
 
-    s " We were both trashed, and I was trying to get her to finish her bottle of whiskey by the stroke of midnight. 
+    s "We were both trashed, and I was trying to get her to finish her bottle of whiskey by the stroke of midnight. 
     She was pushing it away, laughing."
 
     s "In the push-and-pull, our heels got tangled — "
@@ -137,7 +135,7 @@ label chapter_six:
     s "I could not bear what I had seen, could not bear to be the kind 
     of person who would do what I did."
 
-    s " So I listened to the universe. I haven't had a single drink since that night."
+    s "So I listened to the universe. I haven't had a single drink since that night."
     
     s "And through yoga, breathwork, and movement, I was remade into the person you see before you now."
 
@@ -177,8 +175,8 @@ label chapter_six:
 
     n "Sylvia sat tall, gazing at each secret-teller with intense empathy."
 
-    n "I...guess I owe them all this. They brought their own stuff to the table. But I really don't want to talk about 
-    it...."
+    n "I... guess I owe them all this. They brought their own stuff to the table. But I really don't want to talk about 
+    it..."
 
     n "I took a shaky breath and spoke."
 
@@ -195,7 +193,7 @@ label chapter_six:
     a "Me, my sister, and her other friends were all swimming around, but this girl 
     just wanted to lay on the deck chair."
     
-    a " She said she didn't like water and she just wanted to tan. We were teasing her about it." 
+    a "She said she didn't like water and she just wanted to tan. We were teasing her about it." 
     
     a "I thought she was acting that way because she was too good for us." 
     
@@ -297,5 +295,5 @@ label chapter_six:
     nvl clear 
     stop music fadeout 2
 
-call chapter_seven
+call chapter_seven from _call_chapter_seven
             

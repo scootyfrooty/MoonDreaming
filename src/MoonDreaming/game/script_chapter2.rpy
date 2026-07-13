@@ -74,7 +74,7 @@ label chapter_two:
     tv "{i}Don Joe had appeared distraught when the police informed him of his girlfriend's death, 
     falling to his knees and sobbing in front of the officer. "
     
-    tv "{i} He even played the heartbroken boyfriend on the local news, telling Jane's story, and asking for donations to help 
+    tv "{i}He even played the heartbroken boyfriend on the local news, telling Jane's story, and asking for donations to help 
     fund her memorial.{/i}" 
     
     tv "{i}But was this all just a front? What sort of person would do something like this?{/i}"
@@ -163,4 +163,4 @@ label chapter_two:
     stop music fadeout 1.0
     nvl clear 
 
-call chapter_three
+call chapter_three from _call_chapter_three

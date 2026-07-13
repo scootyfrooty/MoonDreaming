@@ -13,6 +13,17 @@ label chapter_four:
     
     n "Aghh, my sister. I picked up the call."
 
+    show sophia sprite with easeinbottom:
+        xpos 60
+        ypos 5
+
+    show ana default with ease:
+        xzoom -1.0
+        xpos 600
+        ypos 30
+
+    show sophia sprite at hop
+
     o "Hey Ana!! I finally got time to call you, the baby is down for a nap and Carlos is making dinner, so my hands are free."
 
     o "How are you doing?! How's the new job?"
@@ -54,11 +65,22 @@ label chapter_four:
 
     a "Bye! Love you too!"
 
+    hide sophia sprite with easeoutbottom
+
+    show ana default with ease:
+        xzoom 1.0
+        xpos 100
+        ypos 30
+
     n "Mannn. She's so much older than me she often feels more like a mom than a sister. She's the golden child too, I was 
     always following in her footsteps. Effortlessly put-together, polite, straight As, and a big girl job right out of college. "
 
     nvl clear
     scene bg apt sunset with dissolve
+    
+    show ana default with dissolve:
+        xpos 100
+        ypos 30
 
     n "I pull into my parking space and head upstairs to my apartment. I forgot to get groceries on the way home, so I guess 
     I'll order takeout. Or check the fridge and see if there's any left overs."
@@ -66,10 +88,18 @@ label chapter_four:
     scene bg livingroom sunset2 with dissolve
     nvl clear
 
+    show ana default with dissolve:
+        xpos 100
+        ypos 30
+
     n "There's leftover pizza...I guess that'll work."
 
     scene bg bedroom sunset2 with dissolve
     nvl clear
+
+    show ana default with dissolve:
+        xpos 100
+        ypos 30
 
     n "I settled down on my bed with my pizza and my laptop, and opened up one of my favorite true crime Youtubers. "
     
@@ -77,7 +107,7 @@ label chapter_four:
 
     nvl clear
     scene bg bedroom night with fadehold
-    show ana default with easeinleft:
+    show ana default with dissolve:
         xpos 200
         ypos 30
 
@@ -92,6 +122,15 @@ label chapter_four:
     n "Honestly maybe I could learn something from that Instagram lady." 
     
     n "Either become more successful, or stop giving a fuck about what anyone thinks. I give way too many fucks. "
+
+    show ana default with ease:
+        xzoom -1.0
+        xpos 600
+        ypos 30
+
+    show instagram sprite with easeinbottom:
+        xpos 60
+        ypos 5
 
     n "I opened up her page and looked at the courses she offered. Mostly yoga stuff, tantra. \"Awaken Your Divine Feminine\"... 
     I tapped on the video."
@@ -116,7 +155,7 @@ label chapter_four:
     s "I only take 8 women per session - it's very intimate and transformational. Book now if you're ready for the next step 
     in your journey towards divine femininity! "
 
-    n "...umm, okay. I don't know about moon goddess rituals. Sounds ...culty. Maybe she has something more normal? "
+    n "...umm, okay. I don't know about moon goddess rituals. Sounds... culty. Maybe she has something more normal? "
 
     n "I tapped on a different video, this one just labeled \"Yoga & Breathwork: the most powerful combo you've been missing\""
 
@@ -142,5 +181,6 @@ label chapter_four:
 
     stop music fadeout 1.0
     hide ana default
+    hide instagram sprite
 
-call chapter_five
+call chapter_five from _call_chapter_five

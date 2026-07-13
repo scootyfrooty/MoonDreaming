@@ -385,5 +385,6 @@ label chapter_ten:
     cn "She was the last to fade as my vision went dark. "
 
     stop music fadeout 4.0
-    scene cg blank with fadehold
+    scene cg blank with Fade(4.0, 2.0, 0.0)   # 4s slow fade to black, 1s hold
+
     $ renpy.full_restart()

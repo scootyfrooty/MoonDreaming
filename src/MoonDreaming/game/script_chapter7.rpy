@@ -34,7 +34,7 @@ label chapter_seven:
     show ana default at hop
     a "Heyyy Emilyy!"
 
-    e "Mannn my clients today were so picky, what a long day. Got dinner with the GF to blow off some steam. 
+    e "Mannn my clients today were so picky, what a long day. Got dinner with Abby to blow off some steam. 
     How're you?"
 
     a "Oh y'know, the usual same old shit at work. "
@@ -98,4 +98,4 @@ label chapter_seven:
     stop music fadeout 2
     scene cg blank with fadehold
 
-call chapter_eight
+call chapter_eight from _call_chapter_eight

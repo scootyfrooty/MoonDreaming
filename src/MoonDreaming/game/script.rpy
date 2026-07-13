@@ -24,4 +24,4 @@ define fadehold = Fade(0.5, 1.0, 0.5)
 #############################################################################################
 
 label start:
-    call chapter_one
+    call chapter_one from _call_chapter_one

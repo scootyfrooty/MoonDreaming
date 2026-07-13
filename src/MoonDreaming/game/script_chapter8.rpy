@@ -128,9 +128,15 @@ label chapter_eight:
 
     scene bg studio sunset with dissolve
 
+    show silvia default with dissolve:
+        xpos 500
+        ypos 10
+
     n "I finished, and hesitated, squinting my eyes open a tiny bit to look at Silvia. She was gazing at me with that soul-searching 
     expression."
 
+    hide silvia default with dissolve
+   
     scene cg blank with dissolve
 
     s "What a beautiful memory."
@@ -314,4 +320,4 @@ label chapter_eight:
     stop music fadeout 1
     nvl clear
 
-call chapter_nine
+call chapter_nine from _call_chapter_nine

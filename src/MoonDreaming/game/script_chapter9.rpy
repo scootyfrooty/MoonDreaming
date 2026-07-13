@@ -40,9 +40,20 @@ label chapter_nine:
 
     n "One night, my sister called as I was in the middle of watching."
 
-    a "Hey Sophia."
+    show sophia sprite with easeinbottom:
+        xpos 60
+        ypos 5
+
+    show ana default with ease:
+        xzoom -1.0
+        xpos 600
+        ypos 30
 
     show ana default at hop
+
+    a "Hey Sophia."
+
+    show sophia sprite at hop
 
     o "Ana, hello!"
 
@@ -148,6 +159,13 @@ label chapter_nine:
 
     nvl clear
 
+    hide sophia sprite with easeoutbottom
+
+    show ana default with ease:
+        xzoom 1.0
+        xpos 100
+        ypos 30
+
     show ana with hpunch
 
     n "Tears released like a flood the moment I hung up the call. "
@@ -183,4 +201,4 @@ label chapter_nine:
     stop music fadeout 2
 
 
-call chapter_ten
+call chapter_ten from _call_chapter_ten

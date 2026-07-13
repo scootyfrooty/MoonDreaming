@@ -3,7 +3,7 @@
 # Chapter One. Demonstrates Layout 1 (ADV) and swapping to Layout 3 (Cinematic).
 
 label chapter_one:
-
+    stop music
     scene cg blank
 
     cn "Our makeup and our clothes are a mundane armor against a hostile world."
@@ -14,4 +14,4 @@ label chapter_one:
 
     cn "But who are we, truly?"
 
-call chapter_two
+call chapter_two from _call_chapter_two

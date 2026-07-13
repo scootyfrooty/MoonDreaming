@@ -41,6 +41,7 @@ label chapter_three:
     beg my parents for money. "
 
     nvl clear
+    
 
     n "I scrolled on my phone to keep my hands busy. When I see my college friends posts on Instagram, they look like 
     they've made it. Thriving in their careers and looking hot while doing it....I guess the #GirlBoss life really is 
@@ -70,6 +71,15 @@ label chapter_three:
     nvl clear
 
     n "As I continued to scroll my feed, I saw a new face." 
+
+    show ana default with ease:
+        xzoom -1.0
+        xpos 600
+        ypos 30
+
+    show instagram sprite with easeinbottom:
+        xpos 60
+        ypos 5
     
     n "Another beautiful woman, of course, because there's a million of those. "
 
@@ -99,7 +109,7 @@ label chapter_three:
 
     nvl clear
 
-    n "Her bio proclaimed: \n {b}Silvia Garcia \n@becoming-silvia \nSomatic ritual + Tantric surrender + Divine femininity \n Ready to 
+    n "Her bio proclaimed: \n {b}Silvia Garcia{/b} \n@becoming-silvia \nSomatic ritual + Tantric surrender + Divine femininity \n {b}Ready to 
     become your highest self? Join me for courses and workshops at the link below!{/b}  "
 
     n "In each picture, her hair fell over her shoulder in effortless-seeming waves that probably actually took hours to style. 
@@ -147,6 +157,13 @@ label chapter_three:
 
     nvl clear
 
+    hide instagram sprite with easeoutbottom
+
+    show ana default with ease:
+        xzoom 1.0
+        xpos 100
+        ypos 30
+
     n "I flipped my phone over, and finished the last dregs of my matcha." 
     
     n "Too distracting, it was time to head to work."
@@ -154,11 +171,13 @@ label chapter_three:
     hide ana default
     stop music fadeout 0.5
     nvl clear
-    scene bg office with dissolve
+    scene bg office
 
     cn "46 unread emails had flooded my inbox, and I was drowning in spreadsheets."
     
     cn "New day, but exactly the same bullshit! \nThere's gotta be more to life than this."
 
+    
 
-call chapter_four
+
+call chapter_four from _call_chapter_four
