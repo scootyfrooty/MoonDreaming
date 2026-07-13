@@ -387,19 +387,21 @@ label chapter_ten:
     stop music fadeout 4.0
     scene cg blank with Fade(4.0, 2.0, 0.0)   # 4s slow fade to black, 1s hold
 
-    show text "{size=70}Moon Dreaming{/size}" at truecenter with Dissolve(2.0)
-    pause 3.5
-    hide text with Dissolve(2.0)
-    pause 0.8
-
-    show text "Art by\nScootyFrooty!" at truecenter with Dissolve(2.0)
-    pause 3.5
+    show text "ART & WRITING\nScoot(@scootyfrooty)\n\nThis was my first visual novel! Thank you for reading <3" at truecenter with Dissolve(2.0)
+    pause 2.5
     hide text with Dissolve(2.0)
     pause 1.5
 
-    show text "Words by\nScootyFrooty!" at truecenter with Dissolve(2.0)
+    show text "MUSIC\nSleep in the forests, Raw, & Bożyszcze dziewcząt w wieku dwudziestu kilku lat by Zakochane Kundle​\nAmoebic Sea Dream & Mascon Hunters by Cancrizans Canon\nFI_PAD_LOW, PT_SOUNDSCAPE, ML_SOUNDSCAPE by ConsBosD23​​\n" at truecenter with Dissolve(2.0)
     pause 3.5
     hide text with Dissolve(2.0)
     pause 0.8
+
+    show text "SPECIAL THANKS TO\nMy girlfriend Nikole for help figuring out Ren'py and Python (and for her endless love and support!)\nMy partner Tea for plot ideas and story feedback (and for their endless love and support!)\nMy friend T for script editing and writing advice\nEveryone in the Toxic Yuri Jamboree server who gave their tips and feedback, you all rock." at truecenter with Dissolve(2.0)
+    pause 3.5
+    hide text with Dissolve(2.0)
+    pause 0.8
+
+    
 
     $ renpy.full_restart()

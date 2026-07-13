@@ -567,7 +567,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("Made by Scoot (@scootyfrooty) with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] for the Toxic Yuri Game Jam 2. \n\nART & WRITING\nScoot\n\nFONTS\nGeist by Versel\nTrickster by Jean-Baptiste Morizot\n\nMUSIC\nSleep in the forests, Raw, & Bożyszcze dziewcząt w wieku dwudziestu kilku lat by Zakochane Kundle​\nAmoebic Sea Dream & Mascon Hunters by Cancrizans Canon\nFI_PAD_LOW, PT_SOUNDSCAPE, ML_SOUNDSCAPE by ConsBosD23​​\n\n[renpy.license!t]")
 
 
 style about_label is gui_label
@@ -590,9 +590,8 @@ screen content_warnings():
         vbox:
 
             label _("Content Warnings")
-            text _("{i}Moon Dreaming{/i} contains depictions of the following. Please take care of yourself.\n")
+            text _("Emotional manipulation \nGeneral substance use \nNon-consensual substance use/drugging \nDubious spiritual practices \nUnwanted sexual touch \nFamily conflict")
 
-            text _("- [placeholder]\n- [placeholder]\n- [placeholder]\n")
 
 
 ## Load and Save screens #######################################################
