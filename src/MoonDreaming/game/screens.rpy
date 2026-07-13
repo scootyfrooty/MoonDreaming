@@ -321,6 +321,8 @@ screen navigation():
 
         textbutton _("About") action ShowMenu("about")
 
+        textbutton _("Content Warnings") action ShowMenu("content_warnings")
+
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
@@ -574,6 +576,23 @@ style about_text is gui_text
 
 style about_label_text:
     size gui.label_text_size
+
+## Content Warnings screen #####################################################
+
+screen content_warnings():
+
+    tag menu
+
+    use game_menu(_("Content Warnings"), scroll="viewport"):
+
+        style_prefix "about"
+
+        vbox:
+
+            label _("Content Warnings")
+            text _("{i}Moon Dreaming{/i} contains depictions of the following. Please take care of yourself.\n")
+
+            text _("- [placeholder]\n- [placeholder]\n- [placeholder]\n")
 
 
 ## Load and Save screens #######################################################
